@@ -1,0 +1,4245 @@
+{
+  "categories": [
+    {
+      "id": "backend",
+      "label": "Backend & Architecture"
+    },
+    {
+      "id": "data",
+      "label": "Databases & SQL"
+    },
+    {
+      "id": "cs",
+      "label": "Algorithms & CS"
+    },
+    {
+      "id": "languages",
+      "label": "C#, C++ & OOP"
+    },
+    {
+      "id": "web",
+      "label": "Web & Tools"
+    }
+  ],
+  "formations": [
+    {
+      "id": "1808721",
+      "slug": "01-programming-foundations-level-1",
+      "number": 1,
+      "title": "Programming Foundations - Level 1",
+      "fullTitle": "01 - Programming Foundations - Level 1",
+      "tagline": "Programming Foundations – Level 1",
+      "shortDescription": "Understand 🖥️ how computers think before ✍️ you write code",
+      "about": "This is the first course in your programming journey. How computers actually work and think.",
+      "skills": [
+        "Understand the difference between Data, Information, Knowledge, and Wisdom",
+        "Explain how computers work, their functions, and internal components",
+        "Understand binary, hexadecimal, and octal systems and why they exist",
+        "Convert between number systems using professional techniques",
+        "Understand bytes, bits, nibbles, and memory terminology",
+        "Use a programmer’s calculator correctly",
+        "Understand computer speed units and performance concepts",
+        "Understand programming languages, levels, and translation tools",
+        "Explain compilers, interpreters, assemblers, and linkers",
+        "Make an informed decision about which programming language to start with"
+      ],
+      "verified": [
+        "Understand how computers represent and process data",
+        "Reason about binary, hexadecimal, and octal systems confidently",
+        "Explain core computer concepts and components",
+        "Understand programming language levels and translation processes",
+        "Apply correct thinking when working with variables and operations",
+        "Build a strong conceptual foundation for any programming language"
+      ],
+      "category": "cs",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 99,
+      "sections": 20,
+      "lectures": 79,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "Introduction",
+          "lectures": 3
+        },
+        {
+          "title": "Lesson # 1 - From Data to Wisdom: 🔢📚💡 (Data, Information, Knowledge, and Wisdom)",
+          "lectures": 5
+        },
+        {
+          "title": "Lesson #2 - Computer, Function, and Components",
+          "lectures": 5
+        },
+        {
+          "title": "Lesson #03 - The Binary System: How Computers Understand Data 🔢💻",
+          "lectures": 5
+        },
+        {
+          "title": "Lesson #04 - Computer Speeds and Units 🚀💻",
+          "lectures": 5
+        },
+        {
+          "title": "Lesson #05 - Hexadecimal System In Computer",
+          "lectures": 5
+        },
+        {
+          "title": "Lesson #06 - Byte Parts and It's Terminology",
+          "lectures": 4
+        },
+        {
+          "title": "Lesson #07 - Hexadecimal Part 2",
+          "lectures": 4
+        },
+        {
+          "title": "Lesson #08 - Octal System In Computer",
+          "lectures": 5
+        },
+        {
+          "title": "Lesson #09 - Programmers Calculator",
+          "lectures": 4
+        },
+        {
+          "title": "Lesson #10 - Introduction to Computer Networks - Part 1",
+          "lectures": 4
+        },
+        {
+          "title": "Lesson #11 - Programming Languages - Part 1",
+          "lectures": 4
+        },
+        {
+          "title": "Lesson #12 - Programming Languages - Part 2",
+          "lectures": 4
+        },
+        {
+          "title": "Lesson #13 - Programming Languages - Part 3",
+          "lectures": 4
+        },
+        {
+          "title": "Lesson #14 - Why You Should Start with C++?",
+          "lectures": 4
+        },
+        {
+          "title": "Lesson #15 - Operations In Computer",
+          "lectures": 4
+        },
+        {
+          "title": "Lesson #16 - Calculation Priorities",
+          "lectures": 4
+        },
+        {
+          "title": "Lesson #17 - Variables and Constants",
+          "lectures": 4
+        },
+        {
+          "title": "What's Next?",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/01-programming-foundations-level-1.jpg",
+      "courseUrl": "https://programmingadvices.com/p/00316b",
+      "certificate": {
+        "serialNumber": "cert_lty4yzd5",
+        "issuedDate": "2025-02-14",
+        "image": "/content/certificates/01-programming-foundations-level-1.png",
+        "thumb": "/content/certificates/thumbs/01-programming-foundations-level-1.webp",
+        "pdf": "/content/certificates/01-programming-foundations-level-1.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1808721/certificate"
+      }
+    },
+    {
+      "id": "1810501",
+      "slug": "02-algorithms-problem-solving-level-1",
+      "number": 2,
+      "title": "Algorithms & Problem-Solving Level 1",
+      "fullTitle": "02 - Algorithms & Problem-Solving Level 1",
+      "tagline": "Algorithms and Problem Solving – Level 1",
+      "shortDescription": "Learn how to think before you write code, otherwise you will be a weak developer!",
+      "about": "In the first course, you learned how computers work, how data is represented, and how programs are built at a conceptual level. Now, it’s time to focus on the most important skill in programming: 👉 How to think and solve problems correctly.",
+      "skills": [
+        "Understand what an algorithm really means",
+        "Analyze problems logically before attempting a solution",
+        "Break complex problems into simple, manageable steps",
+        "Design clear solutions using flowcharts",
+        "Identify inputs, processes, decisions, and outputs",
+        "Think independently without relying on code syntax",
+        "Understand why good thinking matters more than fast coding",
+        "Build the mindset required for real problem solving"
+      ],
+      "verified": [
+        "Understand and explain what algorithms are",
+        "Analyze problems logically without relying on code",
+        "Design step-by-step solutions using flowcharts",
+        "Break down problems into structured logical steps",
+        "Apply algorithmic thinking independent of any language",
+        "Build a strong foundation for coding-based problem solving"
+      ],
+      "category": "cs",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 3,
+      "lectures": 3,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "سلسة الخوارزميات وحل المشاكل المستوى الاول",
+          "lectures": 1
+        },
+        {
+          "title": "Presentation Files",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/02-algorithms-problem-solving-level-1.jpg",
+      "courseUrl": "https://programmingadvices.com/p/00316b1",
+      "certificate": {
+        "serialNumber": "cert_vt2k316c",
+        "issuedDate": "2025-02-14",
+        "image": "/content/certificates/02-algorithms-problem-solving-level-1.png",
+        "thumb": "/content/certificates/thumbs/02-algorithms-problem-solving-level-1.webp",
+        "pdf": "/content/certificates/02-algorithms-problem-solving-level-1.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1810501/certificate"
+      }
+    },
+    {
+      "id": "1811421",
+      "slug": "03-introduction-to-programming-with-cpp-level-1",
+      "number": 3,
+      "title": "Introduction to Programming with C++ – Level 1",
+      "fullTitle": "03 - Introduction to Programming with C++ – Level 1",
+      "tagline": "Introduction to Programming with C++ – Level 1",
+      "shortDescription": "Turn correct thinking into real code using a powerful programming language.",
+      "about": "In the first two courses, you learned how computers work and how to think and solve problems. Now, it’s time to use a real programming language — without losing the thinking skills you already built.",
+      "skills": [
+        "Understand what C++ is and where it is used",
+        "Explain why starting with C++ builds stronger programmers",
+        "Set up a professional C++ development environment",
+        "Write correct C++ syntax with understanding",
+        "Work with input, output, variables, and data types",
+        "Use operators, conditions, and loops correctly",
+        "Build reusable logic using functions",
+        "Work with arrays, structures, and enums",
+        "Understand memory-related concepts at a beginner level",
+        "Apply problem-solving thinking using real C++ code"
+      ],
+      "verified": [
+        "Write correct and meaningful C++ programs",
+        "Apply problem-solving thinking using code",
+        "Use core programming constructs confidently",
+        "Build structured and reusable logic",
+        "Understand C++ as a programming tool, not just a language",
+        "Prepare for advanced C++ and algorithmic problem solving"
+      ],
+      "category": "languages",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 2,
+      "lectures": 3,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "Introduction to Programming Using C++ -  Level 1",
+          "lectures": 2
+        }
+      ],
+      "cover": "/content/courses/03-introduction-to-programming-with-cpp-level-1.jpg",
+      "courseUrl": "https://programmingadvices.com/p/00316b11",
+      "certificate": {
+        "serialNumber": "cert_0h7dsqgh",
+        "issuedDate": "2025-02-14",
+        "image": "/content/certificates/03-introduction-to-programming-with-cpp-level-1.png",
+        "thumb": "/content/certificates/thumbs/03-introduction-to-programming-with-cpp-level-1.webp",
+        "pdf": "/content/certificates/03-introduction-to-programming-with-cpp-level-1.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1811421/certificate"
+      }
+    },
+    {
+      "id": "1811450",
+      "slug": "04-algorithms-problem-solving-level-1-solutions",
+      "number": 4,
+      "title": "Algorithms & Problem-Solving – Level 1 (Solutions)",
+      "fullTitle": "04 - Algorithms & Problem-Solving – Level 1 (Solutions)",
+      "tagline": "From Spaghetti Code to Clean, Controlled, and Scalable Solutions",
+      "shortDescription": "From Spaghetti Code to Clean, Controlled, and Scalable Solutions.",
+      "about": "This is the fourth and most important course in your programming journey. At this stage, you can already solve problems.",
+      "skills": [
+        "Transform messy solutions into clean, readable code",
+        "Apply Divide and Conquer in real programming scenarios",
+        "Break problems into logical sub-problems",
+        "Design small, focused, reusable functions",
+        "Eliminate redundant code and duplication",
+        "Increase reusability and maintainability",
+        "Make enhancements and bug fixing easier and safer",
+        "Control code complexity as programs grow"
+      ],
+      "verified": [
+        "Apply Divide and Conquer in real programming problems",
+        "Design clean, modular, and reusable solutions",
+        "Break large problems into manageable components",
+        "Reduce redundancy and improve maintainability",
+        "Control code structure as systems grow",
+        "Write professional-grade problem-solving code"
+      ],
+      "category": "cs",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 8,
+      "sections": 13,
+      "lectures": 65,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "سلسة الخوارزميات وحل المشاكل المستوى الاول",
+          "lectures": 3
+        },
+        {
+          "title": "Problems from #01 to #05",
+          "lectures": 6
+        },
+        {
+          "title": "Problems #06 to #10",
+          "lectures": 6
+        },
+        {
+          "title": "Problems #11 to #15",
+          "lectures": 6
+        },
+        {
+          "title": "Problems #16 to #20",
+          "lectures": 6
+        },
+        {
+          "title": "Problems #21 to #25",
+          "lectures": 6
+        },
+        {
+          "title": "Problems #26 to #30",
+          "lectures": 6
+        },
+        {
+          "title": "Problems #31 to #35",
+          "lectures": 6
+        },
+        {
+          "title": "Problems #36 to #40",
+          "lectures": 6
+        },
+        {
+          "title": "Problems #41 to #45",
+          "lectures": 6
+        },
+        {
+          "title": "Problems #46 to #50",
+          "lectures": 6
+        },
+        {
+          "title": "End of Course Message",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/04-algorithms-problem-solving-level-1-solutions.jpg",
+      "courseUrl": "https://programmingadvices.com/p/00316b111",
+      "certificate": {
+        "serialNumber": "cert_7t76pgdf",
+        "issuedDate": "2025-02-14",
+        "image": "/content/certificates/04-algorithms-problem-solving-level-1-solutions.png",
+        "thumb": "/content/certificates/thumbs/04-algorithms-problem-solving-level-1-solutions.webp",
+        "pdf": "/content/certificates/04-algorithms-problem-solving-level-1-solutions.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1811450/certificate"
+      }
+    },
+    {
+      "id": "1811531",
+      "slug": "05-algorithms-problem-solving-level-2",
+      "number": 5,
+      "title": "Algorithms & Problem-Solving – Level 2",
+      "fullTitle": "05 - Algorithms & Problem-Solving – Level 2",
+      "tagline": "Algorithms & Problem-Solving – Level 2",
+      "shortDescription": "Practice, Experience, and the Bridge from Problems to Real Projects",
+      "about": "This is the fifth course in your programming journey — and the course where real experience begins. Programming is not knowledge or syntax — it is practice. 👉 Experience comes only from practice.",
+      "skills": [
+        "Solve more complex algorithmic problems",
+        "Improve problem-solving speed and confidence",
+        "Learn new solution ideas from professional examples",
+        "Apply clean code principles under pressure",
+        "Recognize common problem patterns",
+        "Strengthen logical and algorithmic thinking",
+        "Transition from problem solving to project thinking",
+        "Understand why projects are essential for real experience"
+      ],
+      "verified": [
+        "Solve intermediate-level algorithmic problems",
+        "Learn from professional solutions and explanations",
+        "Apply clean code and Divide & Conquer consistently",
+        "Build experience through structured practice",
+        "Transition from problem solving to project development",
+        "Prepare for advanced programming challenges"
+      ],
+      "category": "cs",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 9,
+      "lectures": 61,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "Introduction",
+          "lectures": 3
+        },
+        {
+          "title": "Important Quiz",
+          "lectures": 1
+        },
+        {
+          "title": "Problems #1 to #10",
+          "lectures": 10
+        },
+        {
+          "title": "Problems #11 to #20",
+          "lectures": 10
+        },
+        {
+          "title": "Problems #21 to #30",
+          "lectures": 10
+        },
+        {
+          "title": "Problems #31 to #40",
+          "lectures": 10
+        },
+        {
+          "title": "Problems #41 to #50",
+          "lectures": 10
+        },
+        {
+          "title": "Projects",
+          "lectures": 6
+        }
+      ],
+      "cover": "/content/courses/05-algorithms-problem-solving-level-2.jpg",
+      "courseUrl": "https://programmingadvices.com/p/00316b1111",
+      "certificate": {
+        "serialNumber": "cert_xd13cfww",
+        "issuedDate": "2023-02-10",
+        "image": "/content/certificates/05-algorithms-problem-solving-level-2.png",
+        "thumb": "/content/certificates/thumbs/05-algorithms-problem-solving-level-2.webp",
+        "pdf": "/content/certificates/05-algorithms-problem-solving-level-2.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1811531/certificate"
+      }
+    },
+    {
+      "id": "1827205",
+      "slug": "06-introduction-to-programming-using-cpp-level-2",
+      "number": 6,
+      "title": "Introduction to Programming Using C++ Level 2",
+      "fullTitle": "06 - Introduction to Programming Using C++ Level 2",
+      "tagline": "Introduction to Programming Using C++ – Level 2",
+      "shortDescription": "Master : Debugging • Memory • Advanced C++ Concepts with Confidence",
+      "about": "At this stage, you already know how to think, solve problems, and write clean C++ code. Now it’s time to go deeper into C++ and learn the concepts that give you real control over programs.",
+      "skills": [
+        "Debug C++ programs professionally using breakpoints and watches",
+        "Inspect memory values and execution flow step by step",
+        "Create and use your own C++ libraries",
+        "Master advanced functions (overloading, defaults, recursion)",
+        "Understand variable lifetime and storage duration",
+        "Use pointers and references with confidence",
+        "Manage memory dynamically using new and delete",
+        "Understand stack vs heap clearly",
+        "Work with vectors, arrays, and iterators",
+        "Handle files (read, write, update, delete)"
+      ],
+      "verified": [
+        "Debug C++ programs professionally",
+        "Understand and control memory and execution flow",
+        "Use pointers, references, and dynamic memory safely",
+        "Build reusable and maintainable C++ components",
+        "Work with files and real data",
+        "Prepare for advanced software engineering topics"
+      ],
+      "category": "languages",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 17,
+      "lectures": 62,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "Introduction",
+          "lectures": 1
+        },
+        {
+          "title": "Debugging C++ Code",
+          "lectures": 7
+        },
+        {
+          "title": "Miscellaneous",
+          "lectures": 6
+        },
+        {
+          "title": "More About Functions",
+          "lectures": 6
+        },
+        {
+          "title": "More About Variables",
+          "lectures": 3
+        },
+        {
+          "title": "Printing & Formatting",
+          "lectures": 4
+        },
+        {
+          "title": "More About Arrays",
+          "lectures": 1
+        },
+        {
+          "title": "Vectors Part I",
+          "lectures": 5
+        },
+        {
+          "title": "References",
+          "lectures": 2
+        },
+        {
+          "title": "Pointers",
+          "lectures": 8
+        },
+        {
+          "title": "Dynamic Memory Allocation",
+          "lectures": 3
+        },
+        {
+          "title": "Vectors Part II",
+          "lectures": 3
+        },
+        {
+          "title": "Exception Handling",
+          "lectures": 1
+        },
+        {
+          "title": "Dealing With Strings",
+          "lectures": 2
+        },
+        {
+          "title": "Files",
+          "lectures": 7
+        },
+        {
+          "title": "DateTime",
+          "lectures": 2
+        }
+      ],
+      "cover": "/content/courses/06-introduction-to-programming-using-cpp-level-2.jpg",
+      "courseUrl": "https://programmingadvices.com/p/introduction-to-programming-using-c-level-2",
+      "certificate": {
+        "serialNumber": "cert_7w088jd1",
+        "issuedDate": "2023-03-24",
+        "image": "/content/certificates/06-introduction-to-programming-using-cpp-level-2.png",
+        "thumb": "/content/certificates/thumbs/06-introduction-to-programming-using-cpp-level-2.webp",
+        "pdf": "/content/certificates/06-introduction-to-programming-using-cpp-level-2.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1827205/certificate"
+      }
+    },
+    {
+      "id": "1869980",
+      "slug": "07-algorithms-problem-solving-level-3",
+      "number": 7,
+      "title": "Algorithms & Problem Solving Level 3",
+      "fullTitle": "07 - Algorithms & Problem Solving Level 3",
+      "tagline": "Algorithms & Problem Solving – Level 3",
+      "shortDescription": "Advanced practice, real projects, and experience that makes the difference.",
+      "about": "Think algorithmically Write clean, structured C++ code",
+      "skills": [
+        "Solve more advanced algorithmic problems confidently",
+        "Apply everything learned in previous courses under pressure",
+        "Strengthen clean code and problem decomposition skills",
+        "Recognize deeper problem patterns and solution strategies",
+        "Improve speed, accuracy, and confidence in problem solving",
+        "Transition smoothly from problems to real projects",
+        "Build experience that cannot be gained from theory alone"
+      ],
+      "verified": [
+        "Solve advanced programming problems independently",
+        "Apply clean code and Divide & Conquer consistently",
+        "Use C++ confidently across different problem types",
+        "Build experience through structured, repeated practice",
+        "Transition from problem solving to project implementation",
+        "Prepare for advanced software engineering challenges"
+      ],
+      "category": "cs",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 8,
+      "lectures": 58,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Problems From #01 to #10",
+          "lectures": 10
+        },
+        {
+          "title": "Problems From #11 to #20",
+          "lectures": 10
+        },
+        {
+          "title": "Problems From #21 to #30",
+          "lectures": 10
+        },
+        {
+          "title": "Problems From #31 to #40",
+          "lectures": 10
+        },
+        {
+          "title": "Problems From #41 to #51",
+          "lectures": 11
+        },
+        {
+          "title": "Projects",
+          "lectures": 4
+        }
+      ],
+      "cover": "/content/courses/07-algorithms-problem-solving-level-3.jpg",
+      "courseUrl": "https://programmingadvices.com/p/algorithms-and-problem-solving-level-3",
+      "certificate": {
+        "serialNumber": "cert_rrgjqsck",
+        "issuedDate": "2023-04-06",
+        "image": "/content/certificates/07-algorithms-problem-solving-level-3.png",
+        "thumb": "/content/certificates/thumbs/07-algorithms-problem-solving-level-3.webp",
+        "pdf": "/content/certificates/07-algorithms-problem-solving-level-3.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1869980/certificate"
+      }
+    },
+    {
+      "id": "1890122",
+      "slug": "08-algorithms-problem-solving-level-4",
+      "number": 8,
+      "title": "Algorithms & Problem Solving Level 4",
+      "fullTitle": "08 - Algorithms & Problem Solving Level 4",
+      "tagline": "Algorithms & Problem Solving – Level 4",
+      "shortDescription": "High-volume practice, harder problems, and experience that builds real programmers.",
+      "about": "Think algorithmically with confidence Write clean, structured C++ code",
+      "skills": [
+        "Solve advanced problems with consistency and confidence",
+        "Handle larger problem sets without losing structure",
+        "Apply clean code principles under sustained pressure",
+        "Recognize deeper and more complex problem patterns",
+        "Strengthen analytical speed and decision-making",
+        "Transition naturally from problems to system-level projects",
+        "Build endurance required for real programming work"
+      ],
+      "verified": [
+        "Solve large volumes of advanced programming problems",
+        "Apply clean code and Divide & Conquer consistently at scale",
+        "Handle complexity with confidence and structure",
+        "Build experience through sustained, intensive practice",
+        "Transition from problems to realistic system-level projects",
+        "Prepare for advanced software engineering challenges"
+      ],
+      "category": "cs",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 7,
+      "lectures": 40,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Problems From #01 to #10",
+          "lectures": 10
+        },
+        {
+          "title": "Problems From #11 to #20",
+          "lectures": 9
+        },
+        {
+          "title": "Problems From #20 to #55",
+          "lectures": 5
+        },
+        {
+          "title": "Problems From #56 to #65",
+          "lectures": 9
+        },
+        {
+          "title": "Projects",
+          "lectures": 4
+        }
+      ],
+      "cover": "/content/courses/08-algorithms-problem-solving-level-4.jpg",
+      "courseUrl": "https://programmingadvices.com/p/08-algorithms-problem-solving-level-4",
+      "certificate": {
+        "serialNumber": "cert_nnmhzmw0",
+        "issuedDate": "2025-02-14",
+        "image": "/content/certificates/08-algorithms-problem-solving-level-4.png",
+        "thumb": "/content/certificates/thumbs/08-algorithms-problem-solving-level-4.webp",
+        "pdf": "/content/certificates/08-algorithms-problem-solving-level-4.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1890122/certificate"
+      }
+    },
+    {
+      "id": "1913013",
+      "slug": "09-foundations-level-2",
+      "number": 9,
+      "title": "Foundations Level 2",
+      "fullTitle": "09 - Foundations Level 2",
+      "tagline": "Understanding Networks, Internet, APIs, and How Real Systems Work",
+      "shortDescription": "Understand networks, the internet, and how real software systems work.",
+      "about": "This course comes after completing Course 8 in your programming roadmap. At this stage, you have already completed a deep and demanding journey.",
+      "skills": [
+        "Understand how data is transferred over networks",
+        "Explain TCP/IP, packets, ports, and sockets",
+        "Understand IPv4, IPv6, subnet masks, and IP types",
+        "Know what routers, gateways, modems, and ISPs do",
+        "Understand DNS, domains, subdomains, and URLs",
+        "Explain HTTP vs HTTPS clearly",
+        "Understand servers and client–server communication",
+        "Know what APIs are and how they are used in real systems",
+        "Understand JSON, XML, and GUIDs",
+        "Understand 3-tier architecture"
+      ],
+      "verified": [
+        "Understand how networks and the internet function",
+        "Explain core protocols and communication concepts",
+        "Understand APIs and system architectures",
+        "Recognize basic security concepts and risks",
+        "Communicate effectively with backend and infrastructure teams",
+        "Build stronger, more realistic mental models of software systems"
+      ],
+      "category": "cs",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 95,
+      "sections": 3,
+      "lectures": 38,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Networks and Internet",
+          "lectures": 26
+        },
+        {
+          "title": "Miscellaneous",
+          "lectures": 10
+        }
+      ],
+      "cover": "/content/courses/09-foundations-level-2.jpg",
+      "courseUrl": "https://programmingadvices.com/p/foundations-level-2",
+      "certificate": {
+        "serialNumber": "cert_b4p62rpj",
+        "issuedDate": "2024-09-06",
+        "image": "/content/certificates/09-foundations-level-2.png",
+        "thumb": "/content/certificates/thumbs/09-foundations-level-2.webp",
+        "pdf": "/content/certificates/09-foundations-level-2.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1913013/certificate"
+      }
+    },
+    {
+      "id": "1936515",
+      "slug": "10-oop-as-it-should-be-concepts",
+      "number": 10,
+      "title": "OOP as it Should Be (Concepts)",
+      "fullTitle": "10 - OOP as it Should Be (Concepts)",
+      "tagline": "OOP as it Should Be – Concepts",
+      "shortDescription": "Learn object-oriented programming the right way, at the right time.",
+      "about": "This course is placed exactly where OOP should be learned in your programming journey. Before reaching this point, you have already completed a strong and disciplined roadmap.",
+      "skills": [
+        "Understand what OOP is and why it exists",
+        "Explain the difference between procedural thinking and OOP thinking",
+        "Design and use classes and objects correctly",
+        "Understand objects in memory",
+        "Use access specifiers and properties properly",
+        "Apply Encapsulation and Abstraction correctly",
+        "Design constructors, destructors, and copy constructors",
+        "Use static members and methods appropriately",
+        "Understand and apply Inheritance safely",
+        "Use polymorphism, virtual functions, and dynamic binding"
+      ],
+      "verified": [
+        "Understand and explain OOP concepts clearly",
+        "Apply OOP principles in correct contexts",
+        "Design classes and objects responsibly",
+        "Use inheritance and polymorphism safely",
+        "Avoid common OOP misuse and overengineering",
+        "Prepare for advanced OOP and system design"
+      ],
+      "category": "languages",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 21,
+      "lectures": 54,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "What Is OOP and Why?",
+          "lectures": 1
+        },
+        {
+          "title": "Classes & Objects",
+          "lectures": 3
+        },
+        {
+          "title": "Access Specifiers/Modifiers",
+          "lectures": 1
+        },
+        {
+          "title": "Properties",
+          "lectures": 3
+        },
+        {
+          "title": "Encapsulation and Abstraction",
+          "lectures": 2
+        },
+        {
+          "title": "Project1",
+          "lectures": 2
+        },
+        {
+          "title": "Constructors & Destructors",
+          "lectures": 3
+        },
+        {
+          "title": "Static Members & Methods",
+          "lectures": 2
+        },
+        {
+          "title": "Exercises and Homework",
+          "lectures": 3
+        },
+        {
+          "title": "Inheritance",
+          "lectures": 11
+        },
+        {
+          "title": "Polymorphism",
+          "lectures": 2
+        },
+        {
+          "title": "Friend Classes & Friend Functions",
+          "lectures": 2
+        },
+        {
+          "title": "Misc.",
+          "lectures": 3
+        },
+        {
+          "title": "Organizing Code Using Libraries",
+          "lectures": 1
+        },
+        {
+          "title": "‘this’ pointer in C++",
+          "lectures": 1
+        },
+        {
+          "title": "Misc",
+          "lectures": 4
+        },
+        {
+          "title": "Projects",
+          "lectures": 5
+        },
+        {
+          "title": "Class Vs Structure",
+          "lectures": 1
+        },
+        {
+          "title": "Course Completed",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/10-oop-as-it-should-be-concepts.jpg",
+      "courseUrl": "https://programmingadvices.com/p/oop-as-it-should-be-concepts",
+      "certificate": {
+        "serialNumber": "cert_spqj8q99",
+        "issuedDate": "2023-08-25",
+        "image": "/content/certificates/10-oop-as-it-should-be-concepts.png",
+        "thumb": "/content/certificates/thumbs/10-oop-as-it-should-be-concepts.webp",
+        "pdf": "/content/certificates/10-oop-as-it-should-be-concepts.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1936515/certificate"
+      }
+    },
+    {
+      "id": "1960017",
+      "slug": "11-oop-as-it-should-be-applications",
+      "number": 11,
+      "title": "OOP as it Should Be (Applications)",
+      "fullTitle": "11 - OOP as it Should Be (Applications)",
+      "tagline": "OOP as it Should Be – Applications",
+      "shortDescription": "Build real applications using OOP the way professionals do.",
+      "about": "You are no longer learning how to code. Now it’s time to build real applications using OOP.",
+      "skills": [
+        "Design complete applications using OOP",
+        "Build reusable libraries and components",
+        "Apply encapsulation, abstraction, inheritance, and polymorphism in real code",
+        "Structure large systems with clear responsibilities",
+        "Apply permissions, validation, logging, and security rules",
+        "Extend systems without breaking existing code"
+      ],
+      "verified": [
+        "Build real applications using OOP",
+        "Apply OOP principles professionally",
+        "Design reusable and maintainable systems",
+        "Control complexity using object-oriented design"
+      ],
+      "category": "languages",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 28,
+      "lectures": 69,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Project 1: Utility Library.",
+          "lectures": 2
+        },
+        {
+          "title": "Project 2: Input and Validation Library",
+          "lectures": 2
+        },
+        {
+          "title": "Project 3: Bank System",
+          "lectures": 6
+        },
+        {
+          "title": "Project 3: Bank System - UI - Main Menu",
+          "lectures": 6
+        },
+        {
+          "title": "Project 3: Bank System - UI - Transactions Menu",
+          "lectures": 4
+        },
+        {
+          "title": "Project 3: Bank System - UI - Manage Users Menu",
+          "lectures": 7
+        },
+        {
+          "title": "Project 3: Bank System - Login And Permissions",
+          "lectures": 4
+        },
+        {
+          "title": "Project 3: Bank System - Bank Extension 01",
+          "lectures": 2
+        },
+        {
+          "title": "Project 3: Bank System - Bank Extension 02",
+          "lectures": 2
+        },
+        {
+          "title": "Project 3: Bank System - Bank Extension 03",
+          "lectures": 2
+        },
+        {
+          "title": "Project 3: Bank System - Bank Extension 04",
+          "lectures": 2
+        },
+        {
+          "title": "Project 3: Bank System - Bank Extension 05",
+          "lectures": 2
+        },
+        {
+          "title": "Project 3: Bank System - Bank Extension 06",
+          "lectures": 2
+        },
+        {
+          "title": "Project 3: Bank System - Bank Extension 07",
+          "lectures": 2
+        },
+        {
+          "title": "Project 3: Bank System - Bank Extension 08",
+          "lectures": 2
+        },
+        {
+          "title": "Project 3: Bank System - Bank Extension 09",
+          "lectures": 2
+        },
+        {
+          "title": "Project 3: Bank System - Extension 10.",
+          "lectures": 1
+        },
+        {
+          "title": "Project 04: Currency Exchange",
+          "lectures": 1
+        },
+        {
+          "title": "Project 04: Currency Exchange 01",
+          "lectures": 1
+        },
+        {
+          "title": "Project 4: Currency Exchange 02",
+          "lectures": 2
+        },
+        {
+          "title": "Project 4: Currency Exchange 03",
+          "lectures": 2
+        },
+        {
+          "title": "Project 4: Currency Exchange 04",
+          "lectures": 2
+        },
+        {
+          "title": "Project 04: Currency Exchange 05",
+          "lectures": 2
+        },
+        {
+          "title": "Project 4: Currency Exchange 06",
+          "lectures": 2
+        },
+        {
+          "title": "Template Functions & Classes",
+          "lectures": 3
+        },
+        {
+          "title": "Organize Classes and Header Fils",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/11-oop-as-it-should-be-applications.jpg",
+      "courseUrl": "https://programmingadvices.com/p/11-oop-as-it-should-be-applications",
+      "certificate": {
+        "serialNumber": "cert_zxb0pkdd",
+        "issuedDate": "2023-09-02",
+        "image": "/content/certificates/11-oop-as-it-should-be-applications.png",
+        "thumb": "/content/certificates/thumbs/11-oop-as-it-should-be-applications.webp",
+        "pdf": "/content/certificates/11-oop-as-it-should-be-applications.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1960017/certificate"
+      }
+    },
+    {
+      "id": "1973103",
+      "slug": "12-data-structures-level1",
+      "number": 12,
+      "title": "Data Structures - Level1",
+      "fullTitle": "12 - Data Structures - Level1",
+      "tagline": "Data Structures – Level 1",
+      "shortDescription": "Learn core data structures clearly, correctly, and at the right time.",
+      "about": "Now it’s time to organize data efficiently. This course introduces Data Structures – Level 1, focusing only on the structures you can fully understand at this stage — without overcomplication.",
+      "skills": [
+        "Understand what data structures are and why they matter",
+        "Distinguish between Data Structures and Databases",
+        "Classify data structures and choose the right one",
+        "Understand Time & Space Complexity (Big O)",
+        "Compare performance using Big O notation",
+        "Understand binary data structures with real examples",
+        "Work confidently with arrays and matrices",
+        "Use stacks and queues correctly",
+        "Understand vectors and STL basics",
+        "Implement and operate on Singly, Doubly, and Circular Linked Lists"
+      ],
+      "verified": [
+        "Understand and classify core data structures",
+        "Apply Big O notation to analyze performance",
+        "Choose appropriate data structures for given problems",
+        "Implement and use lists, stacks, queues, and arrays correctly",
+        "Prepare confidently for advanced data structures later"
+      ],
+      "category": "cs",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 98,
+      "sections": 19,
+      "lectures": 49,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Before You Start!",
+          "lectures": 1
+        },
+        {
+          "title": "Data Structures",
+          "lectures": 1
+        },
+        {
+          "title": "Data Structures (DS) vs Database (DB)",
+          "lectures": 1
+        },
+        {
+          "title": "Classifications of Data Structures:",
+          "lectures": 1
+        },
+        {
+          "title": "Time & Space Complexity - Big O Notation - Part 1",
+          "lectures": 8
+        },
+        {
+          "title": "Binary Data Structure",
+          "lectures": 1
+        },
+        {
+          "title": "Array Data Structure",
+          "lectures": 1
+        },
+        {
+          "title": "Matrix Data Structure",
+          "lectures": 1
+        },
+        {
+          "title": "Stack Data Structure",
+          "lectures": 3
+        },
+        {
+          "title": "Vector Data Structure",
+          "lectures": 1
+        },
+        {
+          "title": "Queue Data Structure",
+          "lectures": 3
+        },
+        {
+          "title": "Singly Linked List",
+          "lectures": 9
+        },
+        {
+          "title": "Doubly Linked List",
+          "lectures": 9
+        },
+        {
+          "title": "Circular Linked List",
+          "lectures": 1
+        },
+        {
+          "title": "Abstract Data Type (ADT)",
+          "lectures": 1
+        },
+        {
+          "title": "Map",
+          "lectures": 2
+        },
+        {
+          "title": "Union",
+          "lectures": 2
+        }
+      ],
+      "cover": "/content/courses/12-data-structures-level1.jpg",
+      "courseUrl": "https://programmingadvices.com/p/12-data-structures-level1",
+      "certificate": {
+        "serialNumber": "cert_357wn3ks",
+        "issuedDate": "2023-09-09",
+        "image": "/content/certificates/12-data-structures-level1.png",
+        "thumb": "/content/certificates/thumbs/12-data-structures-level1.webp",
+        "pdf": "/content/certificates/12-data-structures-level1.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/1973103/certificate"
+      }
+    },
+    {
+      "id": "2001432",
+      "slug": "13-algorithms-problem-solving-level-5",
+      "number": 13,
+      "title": "Algorithms & Problem Solving Level 5",
+      "fullTitle": "13 - Algorithms & Problem Solving Level 5",
+      "tagline": "Algorithms & Problem Solving – Level 5",
+      "shortDescription": "Projects, practice, and the completion of Part One of the roadmap.",
+      "about": "Now comes a critical consolidation stage. This course exists to reinforce everything you learned in Data Structures – Level 1 through heavy practice and real projects.",
+      "skills": [
+        "Apply data structures naturally inside projects",
+        "Solve complex problems using structured thinking",
+        "Extend existing systems safely and cleanly",
+        "Reinforce Big O thinking through real scenarios",
+        "Work on projects that evolve over time",
+        "Handle increasing requirements without losing control",
+        "Validate your readiness to move to the next stage"
+      ],
+      "verified": [
+        "Apply data structures in real projects",
+        "Solve problems using structured and scalable approaches",
+        "Extend systems safely through iterative enhancements",
+        "Demonstrate readiness for advanced foundational learning",
+        "Complete Part One of the programming roadmap successfully"
+      ],
+      "category": "cs",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 98,
+      "sections": 12,
+      "lectures": 53,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Before You Start",
+          "lectures": 1
+        },
+        {
+          "title": "Project 1",
+          "lectures": 18
+        },
+        {
+          "title": "Project 2",
+          "lectures": 4
+        },
+        {
+          "title": "Project 3",
+          "lectures": 2
+        },
+        {
+          "title": "Project 4",
+          "lectures": 16
+        },
+        {
+          "title": "Project 5",
+          "lectures": 2
+        },
+        {
+          "title": "Project 6",
+          "lectures": 2
+        },
+        {
+          "title": "Project 7",
+          "lectures": 2
+        },
+        {
+          "title": "Project 8",
+          "lectures": 2
+        },
+        {
+          "title": "Important Message",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/13-algorithms-problem-solving-level-5.jpg",
+      "courseUrl": "https://programmingadvices.com/p/13-algorithms-problem-solving-level-5",
+      "certificate": {
+        "serialNumber": "cert_19x8sng3",
+        "issuedDate": "2023-09-12",
+        "image": "/content/certificates/13-algorithms-problem-solving-level-5.png",
+        "thumb": "/content/certificates/thumbs/13-algorithms-problem-solving-level-5.webp",
+        "pdf": "/content/certificates/13-algorithms-problem-solving-level-5.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2001432/certificate"
+      }
+    },
+    {
+      "id": "2012538",
+      "slug": "14-csharp-level-1",
+      "number": 14,
+      "title": "C# - Level 1",
+      "fullTitle": "14 - C# - Level 1",
+      "tagline": "The Beginning of Stage Two: Building Universal Programming Foundations with C#",
+      "shortDescription": "The start of Stage Two and the foundations every strong developer needs.",
+      "about": "By completing Stage One, you have already built strong confidence — and that confidence is earned. Now comes a critical decision point.",
+      "skills": [
+        "Understand the difference between Library, Framework, and Platform",
+        "Understand .NET, CLR, CTS, CLS, GC, JIT, and managed code",
+        "Transition smoothly from C++ thinking to C# thinking",
+        "Write clean C# code with correct syntax and conventions",
+        "Work confidently with variables, data types, enums, and structures",
+        "Handle dates, strings, casting, and exceptions",
+        "Use control flow, loops, arrays, and LINQ basics",
+        "Build real desktop applications using Windows Forms",
+        "Understand events, controls, dialogs, and UI structure",
+        "Build complete desktop projects (Pizza App, Tic-Tac-Toe, Utilities)"
+      ],
+      "verified": [
+        "Understand .NET and C# fundamentals deeply",
+        "Build structured desktop applications",
+        "Apply universal programming concepts transferable to any stack",
+        "Prepare for databases, backend systems, and enterprise development",
+        "Continue Stage Two with confidence and clarity"
+      ],
+      "category": "languages",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 49,
+      "lectures": 134,
+      "curriculum": [
+        {
+          "title": "Important Before You Start",
+          "lectures": 2
+        },
+        {
+          "title": "Setting up the C# Environment",
+          "lectures": 1
+        },
+        {
+          "title": "Live Meetings",
+          "lectures": 1
+        },
+        {
+          "title": "Library , Framework and Platform",
+          "lectures": 1
+        },
+        {
+          "title": ".NET",
+          "lectures": 3
+        },
+        {
+          "title": ".NET Framework",
+          "lectures": 12
+        },
+        {
+          "title": "Introduction About C#",
+          "lectures": 1
+        },
+        {
+          "title": "Syntax",
+          "lectures": 1
+        },
+        {
+          "title": "Moving from C++ to C# Syntax Comparison",
+          "lectures": 1
+        },
+        {
+          "title": "Output",
+          "lectures": 4
+        },
+        {
+          "title": "Comments",
+          "lectures": 1
+        },
+        {
+          "title": "Variables",
+          "lectures": 3
+        },
+        {
+          "title": "DataTypes",
+          "lectures": 9
+        },
+        {
+          "title": "Working with Date & Time",
+          "lectures": 8
+        },
+        {
+          "title": "Working With Strings",
+          "lectures": 2
+        },
+        {
+          "title": "Type Casting",
+          "lectures": 5
+        },
+        {
+          "title": "User Input",
+          "lectures": 2
+        },
+        {
+          "title": "Operators",
+          "lectures": 7
+        },
+        {
+          "title": "Control Flow",
+          "lectures": 8
+        },
+        {
+          "title": "Arrays",
+          "lectures": 6
+        },
+        {
+          "title": "Array Operations using System.Linq",
+          "lectures": 2
+        },
+        {
+          "title": "C# Math",
+          "lectures": 1
+        },
+        {
+          "title": "Methods",
+          "lectures": 6
+        },
+        {
+          "title": "C# Exceptions",
+          "lectures": 1
+        },
+        {
+          "title": "Misc",
+          "lectures": 1
+        },
+        {
+          "title": "Windows Forms",
+          "lectures": 1
+        },
+        {
+          "title": "Introduction About Controls",
+          "lectures": 9
+        },
+        {
+          "title": "TextBox",
+          "lectures": 1
+        },
+        {
+          "title": "PictureBox",
+          "lectures": 3
+        },
+        {
+          "title": "Drawing",
+          "lectures": 1
+        },
+        {
+          "title": "Tic-Tac-Toe Game",
+          "lectures": 3
+        },
+        {
+          "title": "MaskedTextBox",
+          "lectures": 1
+        },
+        {
+          "title": "ComboBox",
+          "lectures": 3
+        },
+        {
+          "title": "LinkLable",
+          "lectures": 1
+        },
+        {
+          "title": "CheckedListBox",
+          "lectures": 1
+        },
+        {
+          "title": "DateTime Controls",
+          "lectures": 2
+        },
+        {
+          "title": "Timer",
+          "lectures": 1
+        },
+        {
+          "title": "NotifyIcon",
+          "lectures": 1
+        },
+        {
+          "title": "TreeView and ImageList",
+          "lectures": 1
+        },
+        {
+          "title": "ProgressBar",
+          "lectures": 1
+        },
+        {
+          "title": "ListView",
+          "lectures": 1
+        },
+        {
+          "title": "Error Provider",
+          "lectures": 1
+        },
+        {
+          "title": "TrackBar",
+          "lectures": 1
+        },
+        {
+          "title": "NumericUpDown",
+          "lectures": 1
+        },
+        {
+          "title": "Containers",
+          "lectures": 2
+        },
+        {
+          "title": "Dialogs",
+          "lectures": 5
+        },
+        {
+          "title": "Multiple Documents Interface (MDI) Container",
+          "lectures": 1
+        },
+        {
+          "title": "Menus",
+          "lectures": 2
+        },
+        {
+          "title": "End Of Course",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/14-csharp-level-1.jpg",
+      "courseUrl": "https://programmingadvices.com/p/14-c-level-1",
+      "certificate": {
+        "serialNumber": "cert_5cyvqft4",
+        "issuedDate": "2023-09-19",
+        "image": "/content/certificates/14-csharp-level-1.png",
+        "thumb": "/content/certificates/thumbs/14-csharp-level-1.webp",
+        "pdf": "/content/certificates/14-csharp-level-1.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2012538/certificate"
+      }
+    },
+    {
+      "id": "2040664",
+      "slug": "15-database-level-1-sql-concepts-and-practice",
+      "number": 15,
+      "title": "Database Level 1 - SQL (Concepts and Practice)",
+      "fullTitle": "15 - Database Level 1 - SQL (Concepts and Practice)",
+      "tagline": "Database – Level 1 (SQL: Concepts & Practice)",
+      "shortDescription": "Master databases correctly and save years of programming time.",
+      "about": "Databases. Performance",
+      "skills": [
+        "Understand what databases are and why they matter",
+        "Distinguish clearly between Data Structures and Databases",
+        "Understand NULL, redundancy, integrity, and constraints",
+        "Design databases correctly using ERD",
+        "Convert ERD into relational schema step by step",
+        "Apply Primary and Foreign Keys correctly",
+        "Write SQL confidently: ▫️ DDL (Create, Alter, Drop) ▫️ DML (Insert, Update, Delete) ▫️ Queries (Select, Where, Group By, Having, Joins)",
+        "Use views and indexes properly",
+        "Apply normalization (1NF → 3NF and beyond)",
+        "Understand how database design affects performance"
+      ],
+      "verified": [
+        "Upon completion, you will earn a Certificate in Database – Level 1 (SQL: Concepts & Practice) confirming your ability to:",
+        "Design relational databases correctly",
+        "Write efficient SQL queries",
+        "Apply constraints and normalization properly",
+        "Build database-driven applications confidently"
+      ],
+      "category": "data",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 20,
+      "lectures": 102,
+      "curriculum": [
+        {
+          "title": "Introdction",
+          "lectures": 2
+        },
+        {
+          "title": "Installing SQL Sever 2022",
+          "lectures": 1
+        },
+        {
+          "title": "Revision",
+          "lectures": 2
+        },
+        {
+          "title": "Introduction",
+          "lectures": 8
+        },
+        {
+          "title": "Database Design: Conceptual Design",
+          "lectures": 17
+        },
+        {
+          "title": "Relational Schema",
+          "lectures": 9
+        },
+        {
+          "title": "SQL",
+          "lectures": 1
+        },
+        {
+          "title": "SQL - Data Definition Language  - DDL",
+          "lectures": 8
+        },
+        {
+          "title": "DDL - Alter Table Statement",
+          "lectures": 5
+        },
+        {
+          "title": "Backup & Restore Database",
+          "lectures": 3
+        },
+        {
+          "title": "Data Manipulation Language - DML",
+          "lectures": 5
+        },
+        {
+          "title": "Misc 1",
+          "lectures": 3
+        },
+        {
+          "title": "Hints",
+          "lectures": 1
+        },
+        {
+          "title": "SQL - Queries",
+          "lectures": 14
+        },
+        {
+          "title": "Joins",
+          "lectures": 4
+        },
+        {
+          "title": "Views",
+          "lectures": 1
+        },
+        {
+          "title": "SQL - More Queries",
+          "lectures": 3
+        },
+        {
+          "title": "More about Constraints",
+          "lectures": 9
+        },
+        {
+          "title": "Normalization",
+          "lectures": 5
+        },
+        {
+          "title": "Course Completed",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/15-database-level-1-sql-concepts-and-practice.jpg",
+      "courseUrl": "https://programmingadvices.com/p/database-level-1-sql-concepts-and-practice",
+      "certificate": {
+        "serialNumber": "cert_pbxfnq77",
+        "issuedDate": "2023-11-06",
+        "image": "/content/certificates/15-database-level-1-sql-concepts-and-practice.png",
+        "thumb": "/content/certificates/thumbs/15-database-level-1-sql-concepts-and-practice.webp",
+        "pdf": "/content/certificates/15-database-level-1-sql-concepts-and-practice.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2040664/certificate"
+      }
+    },
+    {
+      "id": "2057756",
+      "slug": "16-oop-as-it-should-be-in-csharp",
+      "number": 16,
+      "title": "OOP As It Should Be In C#",
+      "fullTitle": "16 - OOP As It Should Be In C#",
+      "tagline": "OOP as It Should Be in C#",
+      "shortDescription": "Build clean, scalable systems using real object-oriented design.",
+      "about": "Now it’s time to rebuild OOP again — but this time inside C#, the language you will use heavily in Stage Two and beyond.",
+      "skills": [
+        "Understand OOP in C# clearly and deeply",
+        "Design classes and objects correctly in C#",
+        "Use access modifiers to control encapsulation",
+        "Apply properties properly instead of exposing fields",
+        "Use constructors and destructors correctly",
+        "Understand static members, static classes, and their real use cases",
+        "Apply the four OOP principles correctly: ▫️ Encapsulation ▫️ Abstraction ▫️ Inheritance ▫️ Polymorphism",
+        "Work with: ▫️ Abstract classes and interfaces ▫️ Method overriding vs method hiding ▫️ Upcasting and downcasting ▫️ Composition vs inheritance ▫️ Sealed classes and methods ▫️ Partial classes and methods",
+        "Build reusable class libraries",
+        "Write clean, extensible, and maintainable OOP code in C#"
+      ],
+      "verified": [
+        "Upon completion, you will earn a Certificate in OOP as It Should Be in C#, validating your ability to:",
+        "Design clean object-oriented systems in C#",
+        "Apply OOP principles correctly and confidently",
+        "Build reusable and extensible codebases",
+        "Prepare for enterprise-level backend development"
+      ],
+      "category": "languages",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 23,
+      "lectures": 49,
+      "curriculum": [
+        {
+          "title": "About this Course",
+          "lectures": 1
+        },
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Introduction",
+          "lectures": 1
+        },
+        {
+          "title": "Class & Object",
+          "lectures": 3
+        },
+        {
+          "title": "Access Modifiers",
+          "lectures": 2
+        },
+        {
+          "title": "Properties",
+          "lectures": 4
+        },
+        {
+          "title": "Principles/Concepts of OOP, Part I : Encapsulation & Abstraction",
+          "lectures": 2
+        },
+        {
+          "title": "Calculator Project",
+          "lectures": 2
+        },
+        {
+          "title": "Constructor and Destructor",
+          "lectures": 8
+        },
+        {
+          "title": "Real life Application of Using Static and Constructor :-)",
+          "lectures": 1
+        },
+        {
+          "title": "Third Principle/Concept of OOP: Inheritance",
+          "lectures": 8
+        },
+        {
+          "title": "Abstract Class & Methods",
+          "lectures": 1
+        },
+        {
+          "title": "Interface",
+          "lectures": 2
+        },
+        {
+          "title": "C# Nested Class",
+          "lectures": 1
+        },
+        {
+          "title": "Composition",
+          "lectures": 1
+        },
+        {
+          "title": "Sealed Classes & Sealed Method",
+          "lectures": 2
+        },
+        {
+          "title": "C# Partial Class and Partial Method",
+          "lectures": 2
+        },
+        {
+          "title": "Fourth Principle/Concept of OOP: Polymorphism",
+          "lectures": 1
+        },
+        {
+          "title": "Introduction to Class Libraries",
+          "lectures": 1
+        },
+        {
+          "title": "Access Modifiers - Internal",
+          "lectures": 1
+        },
+        {
+          "title": "Class vs Struct",
+          "lectures": 1
+        },
+        {
+          "title": "C# Enums",
+          "lectures": 1
+        },
+        {
+          "title": "Course Complete",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/16-oop-as-it-should-be-in-csharp.jpg",
+      "courseUrl": "https://programmingadvices.com/p/16-oop-in-c",
+      "certificate": {
+        "serialNumber": "cert_tcx8fmtf",
+        "issuedDate": "2025-02-14",
+        "image": "/content/certificates/16-oop-as-it-should-be-in-csharp.png",
+        "thumb": "/content/certificates/thumbs/16-oop-as-it-should-be-in-csharp.webp",
+        "pdf": "/content/certificates/16-oop-as-it-should-be-in-csharp.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2057756/certificate"
+      }
+    },
+    {
+      "id": "2076120",
+      "slug": "17-database-sql-projects-practice",
+      "number": 17,
+      "title": "Database - SQL  ( Projects & Practice)",
+      "fullTitle": "17 - Database - SQL  ( Projects & Practice)",
+      "tagline": "Database – SQL (Projects & Practice)",
+      "shortDescription": "Turn database knowledge into real SQL mastery.",
+      "about": "Turning knowledge into skill through practice. This course exists because databases are mastered by doing, not by reading.",
+      "skills": [],
+      "verified": [
+        "Upon completion, you will earn a Certificate in Database – SQL (Projects & Practice), verifying your ability to:",
+        "Design databases from requirements",
+        "Write complex, correct SQL queries",
+        "Handle real datasets and real scenarios",
+        "Apply database knowledge in production-ready systems"
+      ],
+      "category": "data",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 9,
+      "lectures": 75,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Introduction",
+          "lectures": 1
+        },
+        {
+          "title": "Hints",
+          "lectures": 1
+        },
+        {
+          "title": "Relational Diagrams Projects.",
+          "lectures": 10
+        },
+        {
+          "title": "Misc",
+          "lectures": 1
+        },
+        {
+          "title": "Buy and Import Data",
+          "lectures": 2
+        },
+        {
+          "title": "SQL Problems",
+          "lectures": 52
+        },
+        {
+          "title": "Self Referential Queries",
+          "lectures": 5
+        },
+        {
+          "title": "End Of Course",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/17-database-sql-projects-practice.jpg",
+      "courseUrl": "https://programmingadvices.com/p/17-database-sql-practice",
+      "certificate": {
+        "serialNumber": "cert_d54rzyrt",
+        "issuedDate": "2024-03-02",
+        "image": "/content/certificates/17-database-sql-projects-practice.png",
+        "thumb": "/content/certificates/thumbs/17-database-sql-projects-practice.webp",
+        "pdf": "/content/certificates/17-database-sql-projects-practice.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2076120/certificate"
+      }
+    },
+    {
+      "id": "2100316",
+      "slug": "18-csharp-database-connectivity-adodotnet",
+      "number": 18,
+      "title": "C# & Database Connectivity (ADO.NET)",
+      "fullTitle": "18 - C# & Database Connectivity (ADO.NET)",
+      "tagline": "C# & Database Connectivity (ADO.NET Foundations)",
+      "shortDescription": "Understand ADO.NET once — master every ORM later.",
+      "about": "How your code actually talks to the database.",
+      "skills": [
+        "Understand what ADO.NET is and why it exists",
+        "Understand ADO.NET architecture and data providers",
+        "Connect C# applications to SQL Server correctly",
+        "Retrieve data using: ▫️ DataReader ▫️ DataTable ▫️ DataSet ▫️ DataView",
+        "Perform full CRUD operations safely and efficiently",
+        "Use parameterized queries to prevent SQL injection",
+        "Retrieve single values using ExecuteScalar",
+        "Handle IN statements and filtering correctly",
+        "Apply 3-Tier Architecture properly: ▫️ Presentation Layer ▫️ Business Layer ▫️ Data Access Layer",
+        "Build real applications using ADO.NET: ▫️ Console-based projects ▫️ Windows Forms projects ▫️ Contacts management system"
+      ],
+      "verified": [
+        "Upon completion, you will earn a Certificate in C# & Database Connectivity (ADO.NET), confirming your ability to:",
+        "Connect applications to databases correctly",
+        "Perform secure and efficient data operations",
+        "Apply proper application architecture",
+        "Prepare confidently for ORM-based frameworks later"
+      ],
+      "category": "backend",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 20,
+      "lectures": 52,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Introduction",
+          "lectures": 1
+        },
+        {
+          "title": "مهم جدا",
+          "lectures": 2
+        },
+        {
+          "title": "ADO.NET",
+          "lectures": 3
+        },
+        {
+          "title": "Connect to SQL Server Database - Retrieve Data",
+          "lectures": 5
+        },
+        {
+          "title": "Connect to SQL Server Database - Insert/Add Data",
+          "lectures": 2
+        },
+        {
+          "title": "Connect to SQL Server Database - Update Data",
+          "lectures": 1
+        },
+        {
+          "title": "Connect to SQL Server Database - Delete Data",
+          "lectures": 1
+        },
+        {
+          "title": "Handle In Statement",
+          "lectures": 1
+        },
+        {
+          "title": "CRUD Operations",
+          "lectures": 1
+        },
+        {
+          "title": "3-Tier Architecutre",
+          "lectures": 1
+        },
+        {
+          "title": "Contacts Project on 3 Tier Architecture - Console App",
+          "lectures": 6
+        },
+        {
+          "title": "Homeworks",
+          "lectures": 4
+        },
+        {
+          "title": "Contacts Windows Form Project",
+          "lectures": 1
+        },
+        {
+          "title": "Datatables",
+          "lectures": 10
+        },
+        {
+          "title": "DataView",
+          "lectures": 4
+        },
+        {
+          "title": "Dataset",
+          "lectures": 3
+        },
+        {
+          "title": "DataAdapter",
+          "lectures": 2
+        },
+        {
+          "title": "How to be a Mouse Developer in less than 5 minutes :-)",
+          "lectures": 1
+        },
+        {
+          "title": "Conclusion",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/18-csharp-database-connectivity-adodotnet.jpg",
+      "courseUrl": "https://programmingadvices.com/p/db-connectivity-in-csharp",
+      "certificate": {
+        "serialNumber": "cert_nnw58d4j",
+        "issuedDate": "2023-12-27",
+        "image": "/content/certificates/18-csharp-database-connectivity-adodotnet.png",
+        "thumb": "/content/certificates/thumbs/18-csharp-database-connectivity-adodotnet.webp",
+        "pdf": "/content/certificates/18-csharp-database-connectivity-adodotnet.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2100316/certificate"
+      }
+    },
+    {
+      "id": "2139586",
+      "slug": "19-full-real-project-dvld",
+      "number": 19,
+      "title": "Full Real Project - DVLD",
+      "fullTitle": "19 - Full Real Project - DVLD",
+      "tagline": "Full Real Project – DVLD (Driving License Management System)",
+      "shortDescription": "Build a real system. Face real challenges. Become a real programmer.",
+      "about": "This course will take time⚠️ You will face challenges⚠️ You will get stuck sometimes And that’s exactly how real programming works.",
+      "skills": [],
+      "verified": [
+        "Upon completion, you will earn a Certificate in Full Real Project – DVLD, confirming your ability to:",
+        "Build large, real-world software systems",
+        "Apply OOP, databases, and architecture together",
+        "Read, understand, and extend big codebases",
+        "Work confidently on enterprise-style applications"
+      ],
+      "category": "backend",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 25,
+      "lectures": 96,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Important Before You Start",
+          "lectures": 1
+        },
+        {
+          "title": "Project 1",
+          "lectures": 2
+        },
+        {
+          "title": "Important Lessons Before You Start the Project",
+          "lectures": 5
+        },
+        {
+          "title": "Important Live",
+          "lectures": 1
+        },
+        {
+          "title": "The Project",
+          "lectures": 1
+        },
+        {
+          "title": "Detailed System Requirements",
+          "lectures": 10
+        },
+        {
+          "title": "Database Explanation",
+          "lectures": 12
+        },
+        {
+          "title": "Project Source Code and Database",
+          "lectures": 5
+        },
+        {
+          "title": "Detailed Source Code Explanation - Main Form",
+          "lectures": 1
+        },
+        {
+          "title": "Detailed Source Code Explanation - Manage People",
+          "lectures": 8
+        },
+        {
+          "title": "Detailed Source Code Explanation - Manage Users",
+          "lectures": 6
+        },
+        {
+          "title": "Detailed Source Code Explanation - Login",
+          "lectures": 1
+        },
+        {
+          "title": "Detailed Source Code Explanation - Manage Application Types",
+          "lectures": 3
+        },
+        {
+          "title": "Detailed Source Code Explanation - Manage Test Types",
+          "lectures": 3
+        },
+        {
+          "title": "Detailed Source Code Explanation - Base Application Class",
+          "lectures": 2
+        },
+        {
+          "title": "Detailed Source Code Explanation - Manage Local Driving License Application",
+          "lectures": 5
+        },
+        {
+          "title": "Detailed Source Code Explanation - Schedule Test",
+          "lectures": 5
+        },
+        {
+          "title": "Detailed Source Code Explanation - Take Test",
+          "lectures": 2
+        },
+        {
+          "title": "Detailed Source Code Explanation - Retake Test",
+          "lectures": 1
+        },
+        {
+          "title": "Detailed Source Code Explanation - Issue Driving License",
+          "lectures": 9
+        },
+        {
+          "title": "Detailed Source Code Explanation - Drivers",
+          "lectures": 3
+        },
+        {
+          "title": "Detailed Source Code Explanation - Detain License",
+          "lectures": 4
+        },
+        {
+          "title": "Detailed Source Code Explanation -International License",
+          "lectures": 3
+        },
+        {
+          "title": "Course Is Done",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/19-full-real-project-dvld.jpg",
+      "courseUrl": "https://programmingadvices.com/p/19-fullrealproject",
+      "certificate": {
+        "serialNumber": "cert_vxqx4fy6",
+        "issuedDate": "2025-03-17",
+        "image": "/content/certificates/19-full-real-project-dvld.png",
+        "thumb": "/content/certificates/thumbs/19-full-real-project-dvld.webp",
+        "pdf": "/content/certificates/19-full-real-project-dvld.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2139586/certificate"
+      }
+    },
+    {
+      "id": "2299021",
+      "slug": "20-csharp-programming-level-2",
+      "number": 20,
+      "title": "C# Programming Level 2",
+      "fullTitle": "20 - C# Programming Level 2",
+      "tagline": "Advanced programming concepts that turn C# developers into system builders",
+      "shortDescription": "Advanced C# concepts that power real systems.",
+      "about": "Now it’s time to go deeper into C# itself — not syntax, but advanced programming power.",
+      "skills": [
+        "Pass data correctly between forms and components",
+        "Design and use User Controls and reusable UI components",
+        "Understand and apply Events and Delegates confidently",
+        "Work with: ▫️ Delegates, multicast delegates ▫️ Func, Action, Predicate ▫️ Lambda expressions (and when to use them)",
+        "Manage resources correctly using: ▫️ using statements ▫️ IDisposable patterns",
+        "Work with: ▫️ Nullable types ▫️ Serialization & deserialization (XML, JSON, Binary) ▫️ Attributes (built-in and custom) ▫️ Reflection for dynamic behavior and metadata",
+        "Understand advanced concepts: ▫️ Mutable vs immutable types ▫️ Generics (methods and classes) ▫️ Operator overloading",
+        "Work with system-level features: ▫️ Windows Registry ▫️ Application configuration (App.config) ▫️ Logging (Event Log)",
+        "Master concurrency: ▫️ Multithreading fundamentals ▫️ Thread synchronization and race conditions ▫️ Async programming and Tasks ▫️ Parallel programming",
+        "Apply: ▫️ Dependency Injection ▫️ Inversion of Control (IoC) ▫️ Open/Closed Principle"
+      ],
+      "verified": [
+        "Upon completion, you will earn a Certificate in C# Programming – Level 2, validating your ability to:",
+        "Use advanced C# features confidently",
+        "Design scalable and maintainable applications",
+        "Handle concurrency and asynchronous workflows",
+        "Prepare for advanced backend and enterprise development"
+      ],
+      "category": "languages",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 27,
+      "lectures": 117,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Send Data Between Forms",
+          "lectures": 2
+        },
+        {
+          "title": "User Controls Part 1",
+          "lectures": 2
+        },
+        {
+          "title": "Events",
+          "lectures": 5
+        },
+        {
+          "title": "More About Delegation",
+          "lectures": 6
+        },
+        {
+          "title": "Introduction to Lambada Expression",
+          "lectures": 2
+        },
+        {
+          "title": "Using Statement in C#",
+          "lectures": 4
+        },
+        {
+          "title": "Nullable Data Types",
+          "lectures": 2
+        },
+        {
+          "title": "Serialization and Deserialization",
+          "lectures": 4
+        },
+        {
+          "title": "Attributes",
+          "lectures": 6
+        },
+        {
+          "title": "Reflection in C#",
+          "lectures": 7
+        },
+        {
+          "title": "Add Description to a Method",
+          "lectures": 1
+        },
+        {
+          "title": "Mutable and Immutable Types",
+          "lectures": 2
+        },
+        {
+          "title": "Generics In C#",
+          "lectures": 4
+        },
+        {
+          "title": "Introduction to Windows Registry",
+          "lectures": 8
+        },
+        {
+          "title": "Logging - Event Log",
+          "lectures": 4
+        },
+        {
+          "title": "App.config",
+          "lectures": 3
+        },
+        {
+          "title": "String Builder",
+          "lectures": 1
+        },
+        {
+          "title": "Introduction to Cryptography In C#",
+          "lectures": 13
+        },
+        {
+          "title": "Operator Overloading In C#",
+          "lectures": 5
+        },
+        {
+          "title": "Introduction to Multithreading",
+          "lectures": 13
+        },
+        {
+          "title": "Introduction to Asynchronous Programming",
+          "lectures": 14
+        },
+        {
+          "title": "More about User Controls",
+          "lectures": 2
+        },
+        {
+          "title": "Control Library",
+          "lectures": 1
+        },
+        {
+          "title": "Custom Controls",
+          "lectures": 1
+        },
+        {
+          "title": "Calling Stored Procedures in C#",
+          "lectures": 2
+        },
+        {
+          "title": "End Of Course Message",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/20-csharp-programming-level-2.jpg",
+      "courseUrl": "https://programmingadvices.com/p/c-sharp-level2",
+      "certificate": {
+        "serialNumber": "cert_qj50r7qw",
+        "issuedDate": "2024-11-11",
+        "image": "/content/certificates/20-csharp-programming-level-2.png",
+        "thumb": "/content/certificates/thumbs/20-csharp-programming-level-2.webp",
+        "pdf": "/content/certificates/20-csharp-programming-level-2.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2299021/certificate"
+      }
+    },
+    {
+      "id": "2409302",
+      "slug": "21-database-level2-concepts-t-sql",
+      "number": 21,
+      "title": "Database Level2 - Concepts & T-SQL",
+      "fullTitle": "21 - Database Level2 - Concepts & T-SQL",
+      "tagline": "Database – Level 2 (Concepts & T-SQL)",
+      "shortDescription": "Turn SQL into real database programming power.",
+      "about": "Now it’s time to move SQL from querying to programming. This course takes you inside T-SQL — where logic, control flow, transactions, and performance live.",
+      "skills": [
+        "Write procedural logic in T-SQL using: ▫️ Variables ▫️ IF / ELSE ▫️ CASE statements ▫️ WHILE loops and control blocks (BEGIN…END)",
+        "Handle errors and safety correctly: ▫️ TRY…CATCH ▫️ THROW and error functions ▫️ @@ERROR and @@ROWCOUNT",
+        "Control data consistency with: ▫️ Transactions (COMMIT / ROLLBACK) ▫️ Real banking-style examples",
+        "Work with temporary data: ▫️ Table variables ▫️ Temporary tables ▫️ When to use each correctly",
+        "Build reusable database logic using: ▫️ Stored Procedures (CRUD patterns) ▫️ Scalar functions ▫️ Inline and multi-statement table-valued functions",
+        "Use advanced querying features: ▫️ Window functions (ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD) ▫️ Paging with OFFSET / FETCH ▫️ CTEs (including recursive CTEs)",
+        "Implement database automation: ▫️ Triggers (AFTER / INSTEAD OF) ▫️ Inserted & Deleted tables",
+        "Understand security and safety: ▫️ Dynamic SQL and SQL Injection ▫️ Safer patterns and best practices",
+        "Begin performance-aware thinking: ▫️ Indexing basics ▫️ Execution plans ▫️ Query optimization concepts"
+      ],
+      "verified": [
+        "Upon completion, you will earn a Certificate in Database – Level 2 (Concepts & T-SQL), validating your ability to:",
+        "Write advanced T-SQL logic safely",
+        "Build reusable database components",
+        "Handle transactions and errors correctly",
+        "Apply performance-aware database design"
+      ],
+      "category": "data",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 24,
+      "lectures": 131,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Introduction About T-SQL",
+          "lectures": 2
+        },
+        {
+          "title": "Variables in T-SQL",
+          "lectures": 6
+        },
+        {
+          "title": "IF Satatement",
+          "lectures": 9
+        },
+        {
+          "title": "Case Statement",
+          "lectures": 8
+        },
+        {
+          "title": "Loops Statements In T-SQL",
+          "lectures": 8
+        },
+        {
+          "title": "BEGIN...END Blocks",
+          "lectures": 1
+        },
+        {
+          "title": "Error Handling",
+          "lectures": 8
+        },
+        {
+          "title": "@@ROWCOUNT",
+          "lectures": 2
+        },
+        {
+          "title": "Transactions",
+          "lectures": 3
+        },
+        {
+          "title": "Variable Tables",
+          "lectures": 3
+        },
+        {
+          "title": "Temporary Tables",
+          "lectures": 7
+        },
+        {
+          "title": "Stored Procedures",
+          "lectures": 11
+        },
+        {
+          "title": "Built-In Functions",
+          "lectures": 3
+        },
+        {
+          "title": "Window Functions:",
+          "lectures": 9
+        },
+        {
+          "title": "Scalar Functions",
+          "lectures": 2
+        },
+        {
+          "title": "Table-Valued Functions",
+          "lectures": 7
+        },
+        {
+          "title": "Dynamic SQL and SQL Injection Attack",
+          "lectures": 3
+        },
+        {
+          "title": "Triggers",
+          "lectures": 2
+        },
+        {
+          "title": "After Triggers",
+          "lectures": 8
+        },
+        {
+          "title": "Instead of Triggers",
+          "lectures": 8
+        },
+        {
+          "title": "Cursors in T-SQL",
+          "lectures": 10
+        },
+        {
+          "title": "CTE",
+          "lectures": 8
+        },
+        {
+          "title": "End Of Course Message",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/21-database-level2-concepts-t-sql.jpg",
+      "courseUrl": "https://programmingadvices.com/p/21-db-level2-t-sql",
+      "certificate": {
+        "serialNumber": "cert_xwdkgc8t",
+        "issuedDate": "2024-11-29",
+        "image": "/content/certificates/21-database-level2-concepts-t-sql.png",
+        "thumb": "/content/certificates/thumbs/21-database-level2-concepts-t-sql.webp",
+        "pdf": "/content/certificates/21-database-level2-concepts-t-sql.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2409302/certificate"
+      }
+    },
+    {
+      "id": "2444236",
+      "slug": "22-data-structures-level-2-in-csharp",
+      "number": 22,
+      "title": "Data Structures Level 2 in C#",
+      "fullTitle": "22 - Data Structures Level 2 in C#",
+      "tagline": "22 – Data Structures – Level 2 in C#",
+      "shortDescription": "Advanced collections, trees, graphs, heaps — taught at the perfect time in the roadmap.",
+      "about": "This course is not about deep practice yet. Deep practice, heavy problem solving, and real stress-testing of these concepts will come in the NEXT course.",
+      "skills": [
+        "Understand Generic vs Non-Generic collections and why it matters",
+        "Avoid common performance traps like boxing/unboxing",
+        "Use and compare key C# collections:",
+        "List, ArrayList",
+        "Hashtable vs Dictionary",
+        "HashSet, SortedSet",
+        "SortedList, SortedDictionary",
+        "ObservableCollection",
+        "Apply practical operations correctly:",
+        "Searching, filtering, sorting"
+      ],
+      "verified": [
+        "After finishing this course, you will earn a certificate that proves you can:",
+        "Select the correct data structure in C# for real scenarios",
+        "Analyze tradeoffs (speed vs memory vs simplicity)",
+        "Use LINQ safely and efficiently with collections",
+        "Implement custom collections with interfaces",
+        "Build and implement trees, graphs, heaps, and priority queues"
+      ],
+      "category": "cs",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 38,
+      "lectures": 188,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Introduction",
+          "lectures": 1
+        },
+        {
+          "title": "Before You Start",
+          "lectures": 1
+        },
+        {
+          "title": "Quick Review (Lessons) from Course 12 Data Structures Level 1",
+          "lectures": 4
+        },
+        {
+          "title": "Boxing and Unboxing",
+          "lectures": 4
+        },
+        {
+          "title": "Introduction to Collections  (Data Structures ) in C#",
+          "lectures": 4
+        },
+        {
+          "title": "Lists In C#",
+          "lectures": 15
+        },
+        {
+          "title": "HashTable",
+          "lectures": 3
+        },
+        {
+          "title": "Dictionary",
+          "lectures": 8
+        },
+        {
+          "title": "Hashset",
+          "lectures": 8
+        },
+        {
+          "title": "Set Operations in HashSet in C#",
+          "lectures": 5
+        },
+        {
+          "title": "Comparing Sets with HashSet in C#",
+          "lectures": 5
+        },
+        {
+          "title": "SortedList",
+          "lectures": 8
+        },
+        {
+          "title": "SortedSet",
+          "lectures": 7
+        },
+        {
+          "title": "Sorted Dictionary",
+          "lectures": 3
+        },
+        {
+          "title": "ArrayList",
+          "lectures": 6
+        },
+        {
+          "title": "ObservableCollection in C#",
+          "lectures": 4
+        },
+        {
+          "title": "Stacks In C#",
+          "lectures": 3
+        },
+        {
+          "title": "Queues In C#",
+          "lectures": 3
+        },
+        {
+          "title": "Linked Lists In C#",
+          "lectures": 5
+        },
+        {
+          "title": "Arrays",
+          "lectures": 10
+        },
+        {
+          "title": "BitArray",
+          "lectures": 4
+        },
+        {
+          "title": "Jagged arrays",
+          "lectures": 6
+        },
+        {
+          "title": "Tuples in C#",
+          "lectures": 4
+        },
+        {
+          "title": "Introduction to Collection Interfaces",
+          "lectures": 2
+        },
+        {
+          "title": "IEnumerable Collection Interface",
+          "lectures": 3
+        },
+        {
+          "title": "ICollection - Collection Interface",
+          "lectures": 3
+        },
+        {
+          "title": "IList  - Collection Interface",
+          "lectures": 3
+        },
+        {
+          "title": "IDictionary - Collection Interface",
+          "lectures": 3
+        },
+        {
+          "title": "ISet - Collection Interface",
+          "lectures": 2
+        },
+        {
+          "title": "IComparable",
+          "lectures": 3
+        },
+        {
+          "title": "Tree Data Structure",
+          "lectures": 2
+        },
+        {
+          "title": "General Tree",
+          "lectures": 5
+        },
+        {
+          "title": "Binary Tree",
+          "lectures": 14
+        },
+        {
+          "title": "Introduction to Graphs",
+          "lectures": 14
+        },
+        {
+          "title": "Heap Data Structure",
+          "lectures": 7
+        },
+        {
+          "title": "Priority Queue",
+          "lectures": 3
+        },
+        {
+          "title": "End of Course Message",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/22-data-structures-level-2-in-csharp.jpg",
+      "courseUrl": "https://programmingadvices.com/p/22-ds-l2",
+      "certificate": {
+        "serialNumber": "cert_yfrpkgy9",
+        "issuedDate": "2025-03-08",
+        "image": "/content/certificates/22-data-structures-level-2-in-csharp.png",
+        "thumb": "/content/certificates/thumbs/22-data-structures-level-2-in-csharp.webp",
+        "pdf": "/content/certificates/22-data-structures-level-2-in-csharp.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2444236/certificate"
+      }
+    },
+    {
+      "id": "2460625",
+      "slug": "23-algorithms-level-6",
+      "number": 23,
+      "title": "Algorithms Level 6",
+      "fullTitle": "23 - Algorithms Level 6",
+      "tagline": "Advanced Algorithms, Advanced Data Structures, and Professional Problem Solving",
+      "shortDescription": "Advanced algorithms, where data structures turn into powerful solutions.",
+      "about": "This is the 23rd course in your programming journey — and the course where algorithmic mastery is built. At this stage, programming is no longer about syntax or tools.",
+      "skills": [
+        "Design and analyze advanced algorithms",
+        "Apply searching and sorting algorithms correctly",
+        "Work confidently with trees (BST, AVL, Red-Black Trees)",
+        "Traverse trees and graphs using DFS and BFS",
+        "Solve shortest-path problems using Dijkstra",
+        "Use greedy algorithms for optimization problems",
+        "Apply heaps and priority queues effectively",
+        "Select the best algorithm based on constraints and complexity",
+        "You will stop asking “How do I code this?”  and start asking “What is the best algorithm here?”"
+      ],
+      "verified": [
+        "Certificate in Algorithms – Level 6, verifying the ability to:",
+        "Design and analyze advanced algorithms",
+        "Use trees, graphs, and heaps professionally",
+        "Solve complex problems efficiently",
+        "Apply correct data structures in real scenarios",
+        "Think algorithmically at a system level"
+      ],
+      "category": "cs",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 23,
+      "lectures": 325,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 3
+        },
+        {
+          "title": "Basic Searching Algorithms",
+          "lectures": 6
+        },
+        {
+          "title": "Simple Sorts",
+          "lectures": 9
+        },
+        {
+          "title": "Tree Algorithms - Tree Traversal",
+          "lectures": 4
+        },
+        {
+          "title": "Binary Search Tree (BST)",
+          "lectures": 6
+        },
+        {
+          "title": "Problems with BST",
+          "lectures": 1
+        },
+        {
+          "title": "Balanced Tree - AVL Tree",
+          "lectures": 21
+        },
+        {
+          "title": "Balanced Trees - Red-Black Tree",
+          "lectures": 17
+        },
+        {
+          "title": "Graph Traversals - BFS and DFS",
+          "lectures": 6
+        },
+        {
+          "title": "Shortest Path in Graphs",
+          "lectures": 2
+        },
+        {
+          "title": "Shortest Path Algorithms",
+          "lectures": 2
+        },
+        {
+          "title": "Shortest Path Algorithms - Single-source shortest path",
+          "lectures": 7
+        },
+        {
+          "title": "Greedy Algorithms",
+          "lectures": 6
+        },
+        {
+          "title": "Queue & Stack Problems (30)",
+          "lectures": 60
+        },
+        {
+          "title": "Dictionary & Hashset Problems (20)",
+          "lectures": 40
+        },
+        {
+          "title": "Sorted List Problems (11)",
+          "lectures": 22
+        },
+        {
+          "title": "Observable Collection Problems (7)",
+          "lectures": 14
+        },
+        {
+          "title": "Jagged Array Problems (7)",
+          "lectures": 14
+        },
+        {
+          "title": "Tuples Problems (5)",
+          "lectures": 10
+        },
+        {
+          "title": "BitArray Problems (12)",
+          "lectures": 24
+        },
+        {
+          "title": "Hash Table / SortedList / SortedSet Problems (13)",
+          "lectures": 26
+        },
+        {
+          "title": "Trees Problems (12)",
+          "lectures": 24
+        },
+        {
+          "title": "Conclusion",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/23-algorithms-level-6.jpg",
+      "courseUrl": "https://programmingadvices.com/p/23-algorithms-level6",
+      "certificate": {
+        "serialNumber": "cert_1znyxwwc",
+        "issuedDate": "2026-03-12",
+        "image": "/content/certificates/23-algorithms-level-6.png",
+        "thumb": "/content/certificates/thumbs/23-algorithms-level-6.webp",
+        "pdf": "/content/certificates/23-algorithms-level-6.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2460625/certificate"
+      }
+    },
+    {
+      "id": "2662580",
+      "slug": "24-windows-services",
+      "number": 24,
+      "title": "Windows Services",
+      "fullTitle": "24 - Windows Services",
+      "tagline": "Always-Running Systems & Background Processing for Professional Developers",
+      "shortDescription": "Build always-running, reliable background systems every professional developer must understand.",
+      "about": "Most developers learn how to build applications. Very few learn how to build systems that never stop running. Windows Services are the invisible backbone of real software systems: they run in the background, start automatically, recover from failures, and work without any user interface.",
+      "skills": [
+        "Understand what Windows Services are and why they exist",
+        "Explain when and why to use a Windows Service",
+        "Build a Windows Service from scratch using C#",
+        "Install, start, stop, and manage services professionally",
+        "Handle service lifecycle events correctly (Start, Stop, Pause, Shutdown)",
+        "Debug Windows Services using Console Mode",
+        "Understand the Service Control Manager (SCM)",
+        "Work with service priorities and dependencies",
+        "Implement recovery and fault-handling strategies",
+        "Deploy and uninstall services safely"
+      ],
+      "verified": [
+        "Build and manage Windows Services",
+        "Understand system-level application behavior",
+        "Handle service lifecycle and recovery",
+        "Deploy and maintain background services",
+        "Work with real production-grade Windows environments"
+      ],
+      "category": "backend",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 26,
+      "lectures": 161,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Introduction to Windows Services",
+          "lectures": 1
+        },
+        {
+          "title": "Getting Started with Windows Services",
+          "lectures": 8
+        },
+        {
+          "title": "Building Your First Windows Service",
+          "lectures": 2
+        },
+        {
+          "title": "Installing Windows Services",
+          "lectures": 1
+        },
+        {
+          "title": "Methods for Starting and Stopping a Windows Service Manually",
+          "lectures": 13
+        },
+        {
+          "title": "Methods for Starting and Stopping a Windows Service Automatically",
+          "lectures": 7
+        },
+        {
+          "title": "Types of Windows Services",
+          "lectures": 13
+        },
+        {
+          "title": "Built-in Windows Services vs. Custom Services",
+          "lectures": 9
+        },
+        {
+          "title": "Understanding Service States and Lifecycle Events",
+          "lectures": 12
+        },
+        {
+          "title": "Full Implementation for Service States and Events",
+          "lectures": 1
+        },
+        {
+          "title": "Debugging a Windows Service Using Console Mode",
+          "lectures": 4
+        },
+        {
+          "title": "Understanding the Services Control Manager (SCM)",
+          "lectures": 10
+        },
+        {
+          "title": "Understanding Service Priorities in Windows Services",
+          "lectures": 10
+        },
+        {
+          "title": "Local Services vs. Network Services in Windows",
+          "lectures": 9
+        },
+        {
+          "title": "Service Dependencies in Windows Services",
+          "lectures": 10
+        },
+        {
+          "title": "Service Recovery and Fault Handling in Windows Services",
+          "lectures": 9
+        },
+        {
+          "title": "Deploying Windows Services",
+          "lectures": 8
+        },
+        {
+          "title": "Uninstalling a Windows Service",
+          "lectures": 8
+        },
+        {
+          "title": "Projects",
+          "lectures": 1
+        },
+        {
+          "title": "Project 1 - File Monitoring Windows Service",
+          "lectures": 4
+        },
+        {
+          "title": "Project 1 - Solution -  File Monitoring Windows Service",
+          "lectures": 1
+        },
+        {
+          "title": "Project 2 - DatabaseBackupService",
+          "lectures": 4
+        },
+        {
+          "title": "Project 2 - Solution - DatabaseBackupService",
+          "lectures": 1
+        },
+        {
+          "title": ".NET Framework Windows Service vs. .NET Core/5/6+ Worker Service",
+          "lectures": 12
+        },
+        {
+          "title": "End of Course Message",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/24-windows-services.jpg",
+      "courseUrl": "https://programmingadvices.com/p/24-windowsservices",
+      "certificate": {
+        "serialNumber": "cert_drnkbnn6",
+        "issuedDate": "2026-03-16",
+        "image": "/content/certificates/24-windows-services.png",
+        "thumb": "/content/certificates/thumbs/24-windows-services.webp",
+        "pdf": "/content/certificates/24-windows-services.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2662580/certificate"
+      }
+    },
+    {
+      "id": "2965473",
+      "slug": "git-github-for-beginners",
+      "number": null,
+      "title": "Git & GitHub For Beginners",
+      "fullTitle": "Git & GitHub For Beginners",
+      "tagline": "Git & GitHub for Beginners",
+      "shortDescription": "Learn Git and GitHub the right way — not by memorizing commands, but by understanding how they work. This course teaches you how to track changes, manage code, and follow a real developer workflow using Git and GitHub. By the end, you’ll use Git with confidence and collaborate like a professional.",
+      "about": "Most beginners learn Git by memorizing commands. Very few actually understand how it works. This course is a complete, practical guide to version control using Git and GitHub, built around real developer workflows used in professional environments.",
+      "skills": [
+        "Understand version control concepts clearly",
+        "Use Git commands with confidence",
+        "Track and manage code changes properly",
+        "Work with branches and merge code safely",
+        "Resolve merge conflicts without fear",
+        "Use GitHub for real collaboration",
+        "Work with Git inside Visual Studio and VS Code",
+        "Follow a professional development workflow"
+      ],
+      "verified": [
+        "🏅 Certificate of Completion",
+        "Use Git and GitHub in real projects",
+        "Manage code changes professionally",
+        "Collaborate using modern workflows",
+        "Work using CLI, Visual Studio, or VS Code",
+        "Avoid common beginner mistakes"
+      ],
+      "category": "web",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Mohammad Aljaber",
+      "progress": 57,
+      "sections": 12,
+      "lectures": 83,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "🟦 Module 1 — Understanding Version Control & Git Foundations (🔥 Most Important)",
+          "lectures": 11
+        },
+        {
+          "title": "🟦 Module 2 — Core Git Workflow (Daily Work)",
+          "lectures": 11
+        },
+        {
+          "title": "🟦 Module 3 — Branching & Merging (🔥 Core Skill)",
+          "lectures": 7
+        },
+        {
+          "title": "🟦 Module 4 — Undoing Mistakes",
+          "lectures": 11
+        },
+        {
+          "title": "🟦 Module 5 — GitHub & Remote Work (Real World)",
+          "lectures": 8
+        },
+        {
+          "title": "🟦 Module 6 — Using Git & GitHub in Visual Studio (🔥 Enterprise Style)",
+          "lectures": 10
+        },
+        {
+          "title": "🟦 Module 7 — Using Git & GitHub in Visual Studio Code",
+          "lectures": 9
+        },
+        {
+          "title": "🟦 Module 8 — Managing Files & Project Cleanliness",
+          "lectures": 4
+        },
+        {
+          "title": "📖 Module 9 — Git Productivity & Real-Life",
+          "lectures": 3
+        },
+        {
+          "title": "🟦 Module 10 — Final Project",
+          "lectures": 5
+        },
+        {
+          "title": "End Course Message",
+          "lectures": 2
+        }
+      ],
+      "cover": "/content/courses/git-github-for-beginners.jpg",
+      "courseUrl": "https://programmingadvices.com/p/gitandgithubforbeginners",
+      "certificate": null
+    },
+    {
+      "id": "2537475",
+      "slug": "introduction-to-restful-api",
+      "number": null,
+      "title": "Introduction to RESTful API",
+      "fullTitle": "Introduction to RESTful API",
+      "tagline": "Introduction to RESTful APIs",
+      "shortDescription": "Connect backend systems to web, mobile, and everything else.",
+      "about": "At this stage of the roadmap, you are no longer a beginner. Programming foundations",
+      "skills": [
+        "Explain what an API is in simple, real terms",
+        "Understand XML vs JSON and why JSON dominates APIs",
+        "Understand RESTful API principles and constraints",
+        "Use HTTP methods correctly (GET, POST, PUT, DELETE)",
+        "Understand request & response objects deeply",
+        "Interpret HTTP status codes professionally",
+        "Design simple RESTful APIs",
+        "Build client and server API communication",
+        "Understand DTOs and why they exist",
+        "Connect APIs to databases using 3-Tier architecture"
+      ],
+      "verified": [
+        "Understand RESTful API principles",
+        "Design and consume APIs correctly",
+        "Integrate backend systems with clients",
+        "Work with HTTP professionally",
+        "Build platform-independent integrations"
+      ],
+      "category": "backend",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 18,
+      "lectures": 72,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Introduction",
+          "lectures": 5
+        },
+        {
+          "title": "Win32 API's",
+          "lectures": 14
+        },
+        {
+          "title": "Web APIs",
+          "lectures": 4
+        },
+        {
+          "title": "RESTful API",
+          "lectures": 18
+        },
+        {
+          "title": "Setup Environment",
+          "lectures": 1
+        },
+        {
+          "title": "First Web API Project",
+          "lectures": 1
+        },
+        {
+          "title": "01 Student API Project v1 - Get ALL",
+          "lectures": 2
+        },
+        {
+          "title": "02 Student API Project v2 - Get Passed",
+          "lectures": 2
+        },
+        {
+          "title": "03 Student API Project v3 - Get Avg",
+          "lectures": 2
+        },
+        {
+          "title": "04 Student API Project v4 - Get Student By ID",
+          "lectures": 2
+        },
+        {
+          "title": "05 Student API Project v5 - Post - Add New",
+          "lectures": 2
+        },
+        {
+          "title": "06 Student API Project v6 - Delete",
+          "lectures": 2
+        },
+        {
+          "title": "07 Student API Project v7 - Update",
+          "lectures": 2
+        },
+        {
+          "title": "What is DTO?",
+          "lectures": 2
+        },
+        {
+          "title": "Student API Project 3 Tier with Database",
+          "lectures": 8
+        },
+        {
+          "title": "Upload and Retrieve Images",
+          "lectures": 2
+        },
+        {
+          "title": "End Course Message",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/introduction-to-restful-api.jpg",
+      "courseUrl": "https://programmingadvices.com/p/restful-api",
+      "certificate": {
+        "serialNumber": "cert_46kbmm5x",
+        "issuedDate": "2025-02-17",
+        "image": "/content/certificates/introduction-to-restful-api.png",
+        "thumb": "/content/certificates/thumbs/introduction-to-restful-api.webp",
+        "pdf": "/content/certificates/introduction-to-restful-api.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2537475/certificate"
+      }
+    },
+    {
+      "id": "2922828",
+      "slug": "secure-your-apis-jwt-roles-policies-in-aspdotnet-core",
+      "number": null,
+      "title": "Secure Your APIs: JWT, Roles & Policies in ASP.NET Core",
+      "fullTitle": "Secure Your APIs: JWT, Roles & Policies in ASP.NET Core",
+      "tagline": "Secure Your APIs: JWT, Roles & Policies in ASP.NET Core",
+      "shortDescription": "Build secure ASP.NET Core APIs the right way — JWT, roles, policies, ownership rules, refresh tokens, and real-world security patterns.",
+      "about": "Most developers can build APIs. Very few know how to secure them correctly. This course is a complete, practical guide to securing RESTful APIs in ASP.NET Core, using real-world security patterns applied by professional backend teams.",
+      "skills": [
+        "Implement JWT authentication correctly",
+        "Secure APIs using [Authorize], roles, and policies",
+        "Prevent horizontal privilege escalation",
+        "Design ownership-based access rules",
+        "Implement refresh tokens & secure sessions",
+        "Protect APIs from abuse using rate limiting",
+        "Add logging and auditing for security visibility",
+        "Think like a backend security engineer"
+      ],
+      "verified": [
+        "Design and implement JWT-based authentication systems",
+        "Apply role-based, policy-based, and ownership-based authorization",
+        "Prevent common API security vulnerabilities",
+        "Secure API sessions using refresh tokens",
+        "Protect APIs from abuse using rate limiting strategies",
+        "Implement logging and auditing for security visibility"
+      ],
+      "category": "backend",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 18,
+      "lectures": 90,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "🟦 Introduction - Course Orientation (Continuation Mode)",
+          "lectures": 3
+        },
+        {
+          "title": "🟦 Module 1 — Security Audit (Why the Current API Is Unsafe)",
+          "lectures": 4
+        },
+        {
+          "title": "🧱 Security Maturity Levels (Self-Read)",
+          "lectures": 2
+        },
+        {
+          "title": "🧠 Common API Security Myths (That Break Real Systems)",
+          "lectures": 2
+        },
+        {
+          "title": "🟦 Module 2 -📦🔐🧬 Encoding vs Encryption vs Hashing — Explained",
+          "lectures": 10
+        },
+        {
+          "title": "🟦 Module 3 — Basic Shield (HTTPS + CORS)",
+          "lectures": 9
+        },
+        {
+          "title": "🟦 Module 4 — Authentication with JWT (Core Module)",
+          "lectures": 12
+        },
+        {
+          "title": "🟦 Module 5 — Authorization with Roles (Admin vs Student)",
+          "lectures": 2
+        },
+        {
+          "title": "🟦 Module 6 - Ownership Rules (Policies)",
+          "lectures": 8
+        },
+        {
+          "title": "🟦🧱 Module 7 - Production Hardening",
+          "lectures": 1
+        },
+        {
+          "title": "🔹 7.1 - Token Expiration & Refresh Tokens",
+          "lectures": 4
+        },
+        {
+          "title": "🔹7.2 - Brute-Force & Abuse",
+          "lectures": 4
+        },
+        {
+          "title": "🔹7.3 - Abuse Protection (Rate Limiting)",
+          "lectures": 6
+        },
+        {
+          "title": "🔹 7.4 - Logging & Auditing (Security Visibility)",
+          "lectures": 9
+        },
+        {
+          "title": "🔐🗄️ 7.5 - Secret Protection - Storing the Security Key (Secrets Management)",
+          "lectures": 6
+        },
+        {
+          "title": "🔹 7.6 — Thinking Like an Attacker (Reality Check)",
+          "lectures": 4
+        },
+        {
+          "title": "🟦 Module 8  — Final Review (Production-Ready API)",
+          "lectures": 2
+        }
+      ],
+      "cover": "/content/courses/secure-your-apis-jwt-roles-policies-in-aspdotnet-core.jpg",
+      "courseUrl": "https://programmingadvices.com/p/secure-api-jwt",
+      "certificate": {
+        "serialNumber": "cert_835ysbfh",
+        "issuedDate": "2026-03-15",
+        "image": "/content/certificates/secure-your-apis-jwt-roles-policies-in-aspdotnet-core.png",
+        "thumb": "/content/certificates/thumbs/secure-your-apis-jwt-roles-policies-in-aspdotnet-core.webp",
+        "pdf": "/content/certificates/secure-your-apis-jwt-roles-policies-in-aspdotnet-core.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2922828/certificate"
+      }
+    },
+    {
+      "id": "2962183",
+      "slug": "entity-framework-core-fundamentals-ef-core",
+      "number": null,
+      "title": "Entity Framework Core Fundamentals (EF Core)",
+      "fullTitle": "Entity Framework Core Fundamentals (EF Core)",
+      "tagline": "Entity Framework Core Fundamentals",
+      "shortDescription": "Learn how to build a professional data layer using Entity Framework Core. Move from manual ADO.NET to clean, scalable, and maintainable database access used in real-world systems.",
+      "about": "Most developers can connect to databases. Very few know how to design a clean, scalable data layer. Writing everything manually does not scale👉 Code becomes repetitive and hard to maintain👉 Systems become fragile as they grow",
+      "skills": [
+        "Design clean entity models for real systems",
+        "Understand how EF translates LINQ into SQL",
+        "Work correctly with DbContext and DbSet",
+        "Control change tracking and entity states",
+        "Build relationships between entities",
+        "Implement CRUD operations professionally",
+        "Use async operations in real applications",
+        "Manage database changes using migrations",
+        "Debug and inspect generated SQL",
+        "Decide when to use EF vs raw SQL"
+      ],
+      "verified": [
+        "Upon completing this course, you will be able to:",
+        "Design and implement professional data layers using EF Core",
+        "Replace manual ADO.NET with scalable solutions",
+        "Write optimized and efficient database queries",
+        "Understand ORM behavior internally",
+        "Avoid common performance and design mistakes"
+      ],
+      "category": "backend",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 13,
+      "lectures": 110,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "🟦 Module 1 - From ADO.NET to EF Core -🔥 (Critical Foundation — Do Not Skip)",
+          "lectures": 29
+        },
+        {
+          "title": "🟦 Module 2 — Environment Setup",
+          "lectures": 6
+        },
+        {
+          "title": "🟦 Module 3 - Code First or Database First",
+          "lectures": 7
+        },
+        {
+          "title": "🟦 Module 4 — Database First (Starting Point 🔥)",
+          "lectures": 4
+        },
+        {
+          "title": "🟦 Module 5 — Connecting EF to Existing Database",
+          "lectures": 6
+        },
+        {
+          "title": "🟦 Module 6 — Tracing and Logging Queries",
+          "lectures": 3
+        },
+        {
+          "title": "🟦 Module 7 — Querying Data with LINQ",
+          "lectures": 23
+        },
+        {
+          "title": "🟦 Module 8 — Change Tracking (Critical)",
+          "lectures": 7
+        },
+        {
+          "title": "🟦 Module 9 — CRUD Operations (On Existing DB)",
+          "lectures": 14
+        },
+        {
+          "title": "🟦Module 10 -  Transactions in EF Core",
+          "lectures": 3
+        },
+        {
+          "title": "🟦 Module 11 — Relationship Loading Strategies in EF Core 🔥",
+          "lectures": 5
+        },
+        {
+          "title": "End Course Message",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/entity-framework-core-fundamentals-ef-core.jpg",
+      "courseUrl": "https://programmingadvices.com/p/ef-core-fundamentals-sales",
+      "certificate": {
+        "serialNumber": "cert_wknx0j15",
+        "issuedDate": "2026-06-17",
+        "image": "/content/certificates/entity-framework-core-fundamentals-ef-core.png",
+        "thumb": "/content/certificates/thumbs/entity-framework-core-fundamentals-ef-core.webp",
+        "pdf": "/content/certificates/entity-framework-core-fundamentals-ef-core.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2962183/certificate"
+      }
+    },
+    {
+      "id": "2632459",
+      "slug": "solid-principles",
+      "number": null,
+      "title": "Solid Principles",
+      "fullTitle": "Solid Principles",
+      "tagline": "Object Oriented Programming",
+      "shortDescription": "Writing Maintainable, Scalable, and Professional Object-Oriented Code",
+      "about": "This is not a beginner course. This course is designed for developers who already have strong object-oriented programming knowledge and real coding experience.",
+      "skills": [
+        "Apply the Single Responsibility Principle (SRP) correctly",
+        "Design extensible systems using Open/Closed Principle (OCP)",
+        "Detect and fix violations of Liskov Substitution Principle (LSP)",
+        "Design clean, focused interfaces using ISP",
+        "Decouple systems using Dependency Inversion Principle (DIP)",
+        "Understand the difference between DIP and Dependency Injection",
+        "Refactor bad designs into clean architectures",
+        "Write code that is easier to maintain, test, and extend"
+      ],
+      "verified": [
+        "Apply SOLID principles correctly in real systems",
+        "Identify and fix poor object-oriented designs",
+        "Design maintainable and extensible software",
+        "Understand professional-level architecture decisions",
+        "Write code aligned with industry best practices"
+      ],
+      "category": "backend",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 11,
+      "lectures": 48,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "1 - Single Responsibility Principle (SRP)",
+          "lectures": 6
+        },
+        {
+          "title": "2 - Open/Closed Principle (OCP)",
+          "lectures": 7
+        },
+        {
+          "title": "3 - Liskov Substitution Principle (LSP)",
+          "lectures": 10
+        },
+        {
+          "title": "4 - Interface Segregation Principle (ISP)",
+          "lectures": 10
+        },
+        {
+          "title": "Interface Inheritance",
+          "lectures": 1
+        },
+        {
+          "title": "5 - Dependency Inversion Principle (DIP)",
+          "lectures": 4
+        },
+        {
+          "title": "Introduction to Dependency Injection Design Pattern",
+          "lectures": 3
+        },
+        {
+          "title": "Summary",
+          "lectures": 2
+        },
+        {
+          "title": "End Of Course Message",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/solid-principles.jpg",
+      "courseUrl": "https://programmingadvices.com/p/solid-principles",
+      "certificate": {
+        "serialNumber": "cert_tjh8pcqf",
+        "issuedDate": "2025-04-16",
+        "image": "/content/certificates/solid-principles.png",
+        "thumb": "/content/certificates/thumbs/solid-principles.webp",
+        "pdf": "/content/certificates/solid-principles.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2632459/certificate"
+      }
+    },
+    {
+      "id": "2628701",
+      "slug": "html-deep-dive",
+      "number": null,
+      "title": "HTML - Deep Dive",
+      "fullTitle": "HTML - Deep Dive",
+      "tagline": "Build Real Web Foundations Before CSS & JavaScript",
+      "shortDescription": "Learn HTML the way browsers, search engines, and professionals expect.",
+      "about": "Most people think HTML is “easy” — until their pages break, layouts collapse, SEO fails, or performance drops. HTML has foundations. Deep ones.",
+      "skills": [
+        "Explain how browsers render HTML internally",
+        "Use semantic HTML correctly and confidently",
+        "Understand the real role of HTML vs CSS vs JavaScript",
+        "Write accessible, meaningful HTML structures",
+        "Use text-level semantic elements properly",
+        "Handle images professionally (lazy loading, srcset, formats)",
+        "Build correct links, paths, anchors, and navigation structures",
+        "Create forms with correct methods, validation, and encoding",
+        "Understand meta tags, SEO directives, and social metadata",
+        "Use multimedia, canvas, SVG, maps, and picture elements correctly"
+      ],
+      "verified": [
+        "Write semantic, structured HTML confidently",
+        "Understand browser rendering behavior",
+        "Build accessible and SEO-friendly HTML",
+        "Optimize HTML for performance and scalability",
+        "Prepare clean foundations for CSS, JavaScript, and frameworks"
+      ],
+      "category": "web",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 100,
+      "sections": 56,
+      "lectures": 207,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 3
+        },
+        {
+          "title": "Important Notes Before you Begin",
+          "lectures": 1
+        },
+        {
+          "title": "Introduction to HTML",
+          "lectures": 7
+        },
+        {
+          "title": "Understanding the Symbiotic Relationship of HTML, CSS, and JavaScript",
+          "lectures": 7
+        },
+        {
+          "title": "Understanding Browsers and How They Render HTML",
+          "lectures": 8
+        },
+        {
+          "title": "HTML Editors and Development Environment",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 8
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 4
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "HTML Comments",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "Homework 1 - Practice",
+          "lectures": 1
+        },
+        {
+          "title": "Section",
+          "lectures": 3
+        },
+        {
+          "title": "How Browsers Deal With Images?",
+          "lectures": 2
+        },
+        {
+          "title": "Understanding the Lazy Loading in HTML",
+          "lectures": 2
+        },
+        {
+          "title": "Understanding the Eager and Auto Loading in HTML",
+          "lectures": 2
+        },
+        {
+          "title": "Responsive Design and Viewports (Simple Introduction)",
+          "lectures": 2
+        },
+        {
+          "title": "srcset Attribute in Image Tag",
+          "lectures": 2
+        },
+        {
+          "title": "Recommended Image Formats for Webpages",
+          "lectures": 2
+        },
+        {
+          "title": "iFrame",
+          "lectures": 5
+        },
+        {
+          "title": "Hyperlinks",
+          "lectures": 14
+        },
+        {
+          "title": "Tracking Links In HTML",
+          "lectures": 2
+        },
+        {
+          "title": "Section",
+          "lectures": 2
+        },
+        {
+          "title": "HTML File Paths",
+          "lectures": 2
+        },
+        {
+          "title": "HTML Entities",
+          "lectures": 2
+        },
+        {
+          "title": "URL Encoding",
+          "lectures": 2
+        },
+        {
+          "title": "Lists",
+          "lectures": 6
+        },
+        {
+          "title": "Tables",
+          "lectures": 8
+        },
+        {
+          "title": "Sematic Elements",
+          "lectures": 14
+        },
+        {
+          "title": "Semantic Elements Part2 - Blockquotes, Quotes, and Citations",
+          "lectures": 6
+        },
+        {
+          "title": "Semantic Elements Part3 - Specialized Text-Level Semantic Elements in HTML",
+          "lectures": 8
+        },
+        {
+          "title": "Multimedia - Video / Audio",
+          "lectures": 4
+        },
+        {
+          "title": "Comprehensive Form Creation in HTML",
+          "lectures": 2
+        },
+        {
+          "title": "Understanding the method Attribute in HTML Forms",
+          "lectures": 2
+        },
+        {
+          "title": "Validation Techniques in HTML Forms",
+          "lectures": 2
+        },
+        {
+          "title": "Understanding the enctype Attribute in HTML Forms",
+          "lectures": 2
+        },
+        {
+          "title": "Section",
+          "lectures": 2
+        },
+        {
+          "title": "Introduction to SVG Graphics in HTML",
+          "lectures": 2
+        },
+        {
+          "title": "Inline Images Using Base64 Encoding",
+          "lectures": 3
+        },
+        {
+          "title": "Section",
+          "lectures": 2
+        },
+        {
+          "title": "Section",
+          "lectures": 2
+        },
+        {
+          "title": "Section",
+          "lectures": 4
+        },
+        {
+          "title": "The Power of Meta Tags in HTML",
+          "lectures": 5
+        },
+        {
+          "title": "Plug-ins",
+          "lectures": 4
+        },
+        {
+          "title": "Misc (self Reading)",
+          "lectures": 3
+        },
+        {
+          "title": "Conclusion",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/html-deep-dive.jpg",
+      "courseUrl": "https://programmingadvices.com/p/web-html-deep-dive",
+      "certificate": {
+        "serialNumber": "cert_rl853770",
+        "issuedDate": "2025-07-06",
+        "image": "/content/certificates/html-deep-dive.png",
+        "thumb": "/content/certificates/thumbs/html-deep-dive.webp",
+        "pdf": "/content/certificates/html-deep-dive.pdf",
+        "verifyUrl": "https://programmingadvices.com/courses/2628701/certificate"
+      }
+    },
+    {
+      "id": "2756661",
+      "slug": "css-foundations-deep-dive",
+      "number": null,
+      "title": "CSS Foundations Deep Dive",
+      "fullTitle": "CSS Foundations Deep Dive",
+      "tagline": "CSS Foundations – Deep Dive",
+      "shortDescription": "Stop memorizing CSS — master the rules behind layout, responsiveness, and styling.",
+      "about": "Many learners treat CSS as a “design thing” — or a set of rules to memorize. That’s exactly why most developers struggle with CSS.",
+      "skills": [
+        "Explain CSS syntax, selectors, and how rules are applied",
+        "Master specificity, cascade order, and inheritance (no more guessing)",
+        "Use colors professionally (RGB, HEX, HSL)",
+        "Control spacing precisely (margin, padding, margin collapse)",
+        "Understand the box model deeply and predict layout behavior",
+        "Use DevTools to inspect, debug, and test responsive layouts",
+        "Choose the right unit (px, %, em, rem, vw/vh, vmin/vmax, ch, ex)",
+        "Build layouts using position, display, float, overflow, z-index",
+        "Build modern layouts using Flexbox and CSS Grid confidently",
+        "Create responsive designs with media queries and real breakpoints"
+      ],
+      "verified": [
+        "Apply CSS confidently using correct mental models",
+        "Control cascade, specificity, and inheritance professionally",
+        "Build responsive layouts using modern CSS units and media queries",
+        "Design layouts using Box Model, Flexbox, and Grid",
+        "Debug CSS using DevTools and understand computed styles",
+        "Create maintainable, scalable styling using variables and reusable patterns"
+      ],
+      "category": "web",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 93,
+      "sections": 48,
+      "lectures": 229,
+      "curriculum": [
+        {
+          "title": "About",
+          "lectures": 2
+        },
+        {
+          "title": "What is CSS and Why? 🚀🎨",
+          "lectures": 2
+        },
+        {
+          "title": "Setup Environment",
+          "lectures": 1
+        },
+        {
+          "title": "Types of CSS Styling 🚀🎨",
+          "lectures": 2
+        },
+        {
+          "title": "Inline CSS 🚀🎨",
+          "lectures": 4
+        },
+        {
+          "title": "Internal (Embedded) CSS 📚🎨",
+          "lectures": 4
+        },
+        {
+          "title": "External CSS 🌐🧰",
+          "lectures": 4
+        },
+        {
+          "title": "CSS Syntax, Selectors, Properties, and Values 🎯💻",
+          "lectures": 6
+        },
+        {
+          "title": "Specificity in CSS 🏆🎨",
+          "lectures": 4
+        },
+        {
+          "title": "The Cascade in CSS 🔄🎨",
+          "lectures": 2
+        },
+        {
+          "title": "Inheritance in CSS – 👨‍👩‍👧✨",
+          "lectures": 4
+        },
+        {
+          "title": "CSS Comments  📝✨",
+          "lectures": 1
+        },
+        {
+          "title": "CSS Colors 🎨🎨",
+          "lectures": 9
+        },
+        {
+          "title": "CSS Background-Color 🎨✨",
+          "lectures": 2
+        },
+        {
+          "title": "CSS Background Image  🖼️✨",
+          "lectures": 3
+        },
+        {
+          "title": "CSS Background Shorthand  🎨🖼️",
+          "lectures": 2
+        },
+        {
+          "title": "CSS Borders  🖼️🔲",
+          "lectures": 4
+        },
+        {
+          "title": "CSS Margins 📏✨",
+          "lectures": 6
+        },
+        {
+          "title": "CSS Padding 📏🛋️",
+          "lectures": 4
+        },
+        {
+          "title": "Inspecting Elements Using DevTools 🕵️‍♀️🔧",
+          "lectures": 3
+        },
+        {
+          "title": "CSS Units – Pixels, Percentages, Ems, Rems, and Beyond 📏🔢",
+          "lectures": 22
+        },
+        {
+          "title": "CSS Fonts 🎨🔤",
+          "lectures": 11
+        },
+        {
+          "title": "CSS Height, Width, and Max-Width 📏🔍",
+          "lectures": 4
+        },
+        {
+          "title": "CSS Outline 🖍️",
+          "lectures": 4
+        },
+        {
+          "title": "CSS Box Model 📦🔍",
+          "lectures": 4
+        },
+        {
+          "title": "CSS Layout – The position Property 📐",
+          "lectures": 4
+        },
+        {
+          "title": "CSS Display: block, inline, and inline-block 🖥️📏",
+          "lectures": 4
+        },
+        {
+          "title": "CSS Hiding Techniques: display: none vs. visibility: hidden",
+          "lectures": 4
+        },
+        {
+          "title": "CSS Layout -Display  – Flexbox Fundamentals 🧩📐",
+          "lectures": 4
+        },
+        {
+          "title": "Media Query 📱🔍",
+          "lectures": 6
+        },
+        {
+          "title": "CSS Layout -Display  – Grid Fundamentals 🧩📐",
+          "lectures": 28
+        },
+        {
+          "title": "Misc - Layout",
+          "lectures": 20
+        },
+        {
+          "title": "Transforms",
+          "lectures": 4
+        },
+        {
+          "title": "Transition",
+          "lectures": 4
+        },
+        {
+          "title": "Animation",
+          "lectures": 4
+        },
+        {
+          "title": "More About Images",
+          "lectures": 12
+        },
+        {
+          "title": "CSS Masking",
+          "lectures": 2
+        },
+        {
+          "title": "CSS Variables",
+          "lectures": 2
+        },
+        {
+          "title": "CSS Math Functions",
+          "lectures": 1
+        },
+        {
+          "title": "Practice Projects 🚀💪",
+          "lectures": 8
+        },
+        {
+          "title": "Self Study Projects - Short Stories Different Layouts",
+          "lectures": 1
+        },
+        {
+          "title": "Self Study Projects - Galaries",
+          "lectures": 1
+        },
+        {
+          "title": "Self Study Project - Button Styles",
+          "lectures": 1
+        },
+        {
+          "title": "Self Study Project - TextBox Styles",
+          "lectures": 1
+        },
+        {
+          "title": "Self Study Project - CheckBox and Radio Button Styles",
+          "lectures": 1
+        },
+        {
+          "title": "Self Study Project -  CSS Dropdown & List Styles",
+          "lectures": 1
+        },
+        {
+          "title": "Self Study Project - CSS Pagination Styles",
+          "lectures": 1
+        },
+        {
+          "title": "Self Study Project - Menu Styles",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/css-foundations-deep-dive.jpg",
+      "courseUrl": "https://programmingadvices.com/p/css-foundations-deepdive",
+      "certificate": null
+    },
+    {
+      "id": "2845241",
+      "slug": "start-coding-with-javascript-beginner-s-essentials-guide",
+      "number": null,
+      "title": "Start Coding with JavaScript: Beginner’s Essentials Guide",
+      "fullTitle": "Start Coding with JavaScript: Beginner’s Essentials Guide",
+      "tagline": "Start Coding with JavaScript: Beginner’s Essentials Guide",
+      "shortDescription": "Stop learning shells - JavaScript Is Not “Easy” - It’s Powerful, Complex, and Requires Real Foundations.",
+      "about": "Many learners believe JavaScript is the best “first programming language” because it looks easy. JavaScript is easy to start typing… but hard to master correctly. 👉 Without strong foundations, you don’t learn JavaScript — you learn shells.",
+      "skills": [
+        "Understand where JavaScript runs (browser vs Node.js) and how engines work",
+        "Write and run JavaScript using 3 professional methods",
+        "Understand Window / BOM / DOM clearly and use them correctly",
+        "Use timing functions, events, and browser APIs without confusion",
+        "Use Web Storage professionally: localStorage, sessionStorage, cookies, IndexedDB",
+        "Master real JavaScript foundations: variables, scope, types, conversion, operators",
+        "Write correct control flow and loops (including common pitfalls)",
+        "Build strong function skills: closures, callbacks, recursion, bind/call/apply",
+        "Master objects, arrays, Map/Set, built-in objects, Math, Date, JSON",
+        "Handle errors professionally (sync + async) with real defensive programming"
+      ],
+      "verified": [
+        "Write correct JavaScript with strong foundations (scope, types, functions, objects)",
+        "Build interactive web behavior using DOM and events correctly",
+        "Handle browser storage (localStorage, cookies, IndexedDB) professionally",
+        "Apply defensive programming and strong error handling (sync + async)",
+        "Understand and use async programming correctly (event loop, promises, async/await)",
+        "Call real Web APIs with Fetch using best practices and safe patterns"
+      ],
+      "category": "web",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 79,
+      "sections": 48,
+      "lectures": 630,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 3
+        },
+        {
+          "title": "Getting Started -🛠️ Setting Up the Environment With All Options",
+          "lectures": 3
+        },
+        {
+          "title": "Your First Script – console.log",
+          "lectures": 3
+        },
+        {
+          "title": "Run and Test Your JavaScript Code (3 Ways/Options)",
+          "lectures": 8
+        },
+        {
+          "title": "Ways to Include JavaScript in HTML",
+          "lectures": 2
+        },
+        {
+          "title": "About Javascript (⚠️ Important don't skip any lesson)",
+          "lectures": 23
+        },
+        {
+          "title": "🌐🪟🌳Window, BOM, and DOM in JavaScript",
+          "lectures": 2
+        },
+        {
+          "title": "1️⃣ 🪟 Window (The Global Container)",
+          "lectures": 7
+        },
+        {
+          "title": "⏱️ JavaScript Timing Functions",
+          "lectures": 5
+        },
+        {
+          "title": "Event Handling –  addEventListener() / removeEventListener()",
+          "lectures": 4
+        },
+        {
+          "title": "JavaScript Scrolling Methods",
+          "lectures": 2
+        },
+        {
+          "title": "🧭Location Object",
+          "lectures": 2
+        },
+        {
+          "title": "📜 history Object",
+          "lectures": 2
+        },
+        {
+          "title": "🧭 navigator Object",
+          "lectures": 2
+        },
+        {
+          "title": "🖥️ screen Object",
+          "lectures": 3
+        },
+        {
+          "title": "💾Web Storage in JavaScript",
+          "lectures": 5
+        },
+        {
+          "title": "💾Web Storage - 🍪 Cookies in JavaScript",
+          "lectures": 4
+        },
+        {
+          "title": "💾Web Storage - 🗄️ IndexedDB",
+          "lectures": 11
+        },
+        {
+          "title": "📘 Coding with Javascript: Basic Syntax Foundations (Self Read)",
+          "lectures": 7
+        },
+        {
+          "title": "📗 Variables , Constants, and Scopes",
+          "lectures": 7
+        },
+        {
+          "title": "📙 Data Types & Type System",
+          "lectures": 12
+        },
+        {
+          "title": "📕 Operators",
+          "lectures": 20
+        },
+        {
+          "title": "📘  Control Flow",
+          "lectures": 6
+        },
+        {
+          "title": "📕Loops",
+          "lectures": 13
+        },
+        {
+          "title": "📗 Functions",
+          "lectures": 27
+        },
+        {
+          "title": "📙 Objects",
+          "lectures": 15
+        },
+        {
+          "title": "📗 Arrays",
+          "lectures": 21
+        },
+        {
+          "title": "📕 Maps, Sets & Advanced Data Collections",
+          "lectures": 16
+        },
+        {
+          "title": "📗 Strings, Numbers & Built-in Objects",
+          "lectures": 6
+        },
+        {
+          "title": "📘  Math Object (Syntax & Practical Usage)",
+          "lectures": 16
+        },
+        {
+          "title": "📗 Date Object (Syntax & Practical Usage)",
+          "lectures": 35
+        },
+        {
+          "title": "📙 Advanced and Rare Operators",
+          "lectures": 6
+        },
+        {
+          "title": "📕 JSON (Syntax Level Overview)",
+          "lectures": 15
+        },
+        {
+          "title": "📗Error Handling & Defensive Programming",
+          "lectures": 24
+        },
+        {
+          "title": "📘Classes & Object-Oriented Programming",
+          "lectures": 39
+        },
+        {
+          "title": "📘 JavaScript Modules  (ES Modules — import / export)",
+          "lectures": 21
+        },
+        {
+          "title": "📗 🔁 Event Loop, Call Stack, Tasks & Microtasks",
+          "lectures": 9
+        },
+        {
+          "title": "📙 Promises In Javascript",
+          "lectures": 26
+        },
+        {
+          "title": "📗  async / await",
+          "lectures": 18
+        },
+        {
+          "title": "📘 Fetch API & Calling Web APIs in JavaScript",
+          "lectures": 54
+        },
+        {
+          "title": "📗 Small Demo Projects: Sample Real API Demos",
+          "lectures": 9
+        },
+        {
+          "title": "📘 DOM Manipulation & Events Syntax",
+          "lectures": 50
+        },
+        {
+          "title": "📗 Form Validation - PreventDefault , Collecting Form Data",
+          "lectures": 13
+        },
+        {
+          "title": "📘🔒 Security Basics for Front-End JavaScript",
+          "lectures": 12
+        },
+        {
+          "title": "🔤 Regular Expressions - Bonus (Practical Basics)",
+          "lectures": 6
+        },
+        {
+          "title": "🧰 DevTools Essentials - Bonus",
+          "lectures": 24
+        },
+        {
+          "title": "🧩 Extra Porjects - 10 Projects",
+          "lectures": 11
+        },
+        {
+          "title": "📦 Reusable Layout Components - Mini-Framework",
+          "lectures": 1
+        }
+      ],
+      "cover": "/content/courses/start-coding-with-javascript-beginner-s-essentials-guide.jpg",
+      "courseUrl": "https://programmingadvices.com/p/js-essentials-guide",
+      "certificate": null
+    },
+    {
+      "id": "2982501",
+      "slug": "typescript-fundamentals-from-javascript-to-professional-type-safe-development",
+      "number": null,
+      "title": "TypeScript Fundamentals: From JavaScript to Professional Type-Safe Development",
+      "fullTitle": "TypeScript Fundamentals: From JavaScript to Professional Type-Safe Development",
+      "tagline": "3️⃣ JavaScript Fundamentals",
+      "shortDescription": "Learn how TypeScript transforms JavaScript into a safer, more scalable language for modern application development. Perfect for JavaScript developers preparing for React, Angular, Node.js, and enterprise projects.",
+      "about": "You already learned JavaScript. Now it is time to learn how professional developers build safer, scalable, and maintainable applications using TypeScript.",
+      "skills": [
+        "Understand why TypeScript exists and what problem it solves",
+        "Convert JavaScript thinking into type-safe development",
+        "Use type inference and explicit type annotations correctly",
+        "Work with primitive types, arrays, tuples, objects, and special types",
+        "Use union types, literal types, narrowing, and custom type guards",
+        "Write strongly typed functions, callbacks, overloads, and generics",
+        "Use type aliases and interfaces professionally",
+        "Build classes with access modifiers, readonly members, and abstract classes",
+        "Master generics, constraints, default generic types, and reusable patterns",
+        "Use keyof, typeof, mapped types, utility types, and advanced types"
+      ],
+      "verified": [
+        "TypeScript Fundamentals: From JavaScript to Professional Type-Safe Development",
+        "verifying the ability to:",
+        "Build type-safe applications using TypeScript",
+        "Understand compile-time safety and runtime behavior",
+        "Design reusable types, interfaces, and generics",
+        "Work with APIs, DOM elements, and external libraries safely"
+      ],
+      "category": "web",
+      "provider": "ProgrammingAdvices",
+      "instructor": "Dr. Mohammed Abu-Hadhoud",
+      "progress": 1,
+      "sections": 12,
+      "lectures": 228,
+      "curriculum": [
+        {
+          "title": "Important Introduction",
+          "lectures": 2
+        },
+        {
+          "title": "🟦 Module 1 — Why TypeScript Exists (Critical Foundation)",
+          "lectures": 17
+        },
+        {
+          "title": "🟦 Module 2 — Installing and Configuring TypeScript",
+          "lectures": 19
+        },
+        {
+          "title": "🟦 Module 3 — JavaScript Meets TypeScript",
+          "lectures": 22
+        },
+        {
+          "title": "🟦 Module 4 — Type System Fundamentals",
+          "lectures": 18
+        },
+        {
+          "title": "🟦 Module 5 — Complex Types (Self-Read)",
+          "lectures": 19
+        },
+        {
+          "title": "🟦 Module 6 — Type Narrowing & Control Flow Analysis",
+          "lectures": 22
+        },
+        {
+          "title": "🟦 Module 7 — Functions (Self-Read)",
+          "lectures": 17
+        },
+        {
+          "title": "🟦 Module 8 — Interfaces & Type Aliases (Self-Read)",
+          "lectures": 21
+        },
+        {
+          "title": "🟦 Module 9 — Classes (OOP) (Self-Read)",
+          "lectures": 30
+        },
+        {
+          "title": "🟦 Module 10 — Generics (Self-Read)",
+          "lectures": 23
+        },
+        {
+          "title": "🟦 Module 11 — Practical Advanced Types",
+          "lectures": 18
+        }
+      ],
+      "cover": "/content/courses/typescript-fundamentals-from-javascript-to-professional-type-safe-development.jpg",
+      "courseUrl": "https://programmingadvices.com/p/typescript-fundamentals",
+      "certificate": null
+    }
+  ]
+}

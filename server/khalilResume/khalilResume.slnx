@@ -1,0 +1,22 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/khalilResume.Domain/khalilResume.Domain.csproj" />
+    <Project Path="src/khalilResume.Application/khalilResume.Application.csproj" />
+    <Project Path="src/khalilResume.Contracts/khalilResume.Contracts.csproj" />
+    <Project Path="src/khalilResume.Infrastructure/khalilResume.Infrastructure.csproj" />
+    <Project Path="src/khalilResume.Api/khalilResume.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/khalilResume.Tests.Common/khalilResume.Tests.Common.csproj" />
+    <Project Path="tests/khalilResume.Domain.UnitTests/khalilResume.Domain.UnitTests.csproj" />
+  </Folder>
+</Solution>
