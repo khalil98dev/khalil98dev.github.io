@@ -106,8 +106,15 @@ export default function Home() {
               >
                 <div className="lang-card__glow" />
                 <div className="lang-card__top">
-                  <div className="lang-card__symbol-badge">
-                    <span className="lang-card__symbol">{l.name}</span>
+                  <div className="lang-card__brand">
+                    <motion.div
+                      className="lang-card__logo"
+                      whileHover={{ scale: 1.1, rotate: -4 }}
+                      transition={{ type: 'spring', stiffness: 320, damping: 18 }}
+                    >
+                      <img src={l.icon} alt={`${l.name} logo`} width={34} height={34} loading="lazy" />
+                    </motion.div>
+                    <span className="lang-card__name">{l.name}</span>
                   </div>
                   <span className="pill pill--soft">{l.tag}</span>
                 </div>

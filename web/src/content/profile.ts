@@ -8,6 +8,7 @@ import type { Education, Experience, Language, Profile, ProgrammingLanguage, Pro
 export const programmingLanguages: ProgrammingLanguage[] = [
   {
     name: 'C#',
+    icon: '/content/langs/csharp.svg',
     category: 'Backend & Enterprise',
     role: 'Primary Backend & Enterprise',
     tag: 'Core Specialization',
@@ -18,6 +19,7 @@ export const programmingLanguages: ProgrammingLanguage[] = [
   },
   {
     name: 'C++',
+    icon: '/content/langs/cplusplus.svg',
     category: 'Core Computer Science',
     role: 'Algorithms & Computing Foundations',
     tag: '800+ Challenges',
@@ -28,6 +30,7 @@ export const programmingLanguages: ProgrammingLanguage[] = [
   },
   {
     name: 'TypeScript',
+    icon: '/content/langs/typescript.svg',
     category: 'Front-End & Full-Stack',
     role: 'Type-Safe Web Applications',
     tag: 'Modern Web',
@@ -38,6 +41,7 @@ export const programmingLanguages: ProgrammingLanguage[] = [
   },
   {
     name: 'Dart',
+    icon: '/content/langs/dart.svg',
     category: 'Mobile & Client',
     role: 'Cross-Platform Mobile',
     tag: 'Flutter Apps',
@@ -48,6 +52,7 @@ export const programmingLanguages: ProgrammingLanguage[] = [
   },
   {
     name: 'JavaScript',
+    icon: '/content/langs/javascript.svg',
     category: 'Web & Scripting',
     role: 'Dynamic Client & Scripting',
     tag: 'ES6+ & Async',
@@ -58,6 +63,7 @@ export const programmingLanguages: ProgrammingLanguage[] = [
   },
   {
     name: 'HTML',
+    icon: '/content/langs/html5.svg',
     category: 'Web Standards',
     role: 'Semantic Structure & Accessibility',
     tag: 'HTML5 Standards',
@@ -68,6 +74,7 @@ export const programmingLanguages: ProgrammingLanguage[] = [
   },
   {
     name: 'CSS',
+    icon: '/content/langs/css3.svg',
     category: 'UI / UX Engineering',
     role: 'Design Systems & Layouts',
     tag: 'Apple Design & Motion',

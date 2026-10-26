@@ -31,6 +31,7 @@ export interface SkillGroup {
 
 export interface ProgrammingLanguage {
   name: string;
+  icon: string; // official logo (SVG) path
   category: string;
   role: string;
   description: string;

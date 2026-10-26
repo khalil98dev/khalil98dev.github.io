@@ -46,7 +46,7 @@ const StaticSource: DataSource = {
         avatar: resolveAsset(p.avatar),
         avatarSm: resolveAsset(p.avatarSm),
       },
-      programmingLanguages: m.programmingLanguages,
+      programmingLanguages: m.programmingLanguages.map((l) => ({ ...l, icon: resolveAsset(l.icon) })),
       skills: m.skills,
       experience: m.experience,
       projects: m.projects,

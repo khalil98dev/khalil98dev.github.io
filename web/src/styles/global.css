@@ -1205,23 +1205,35 @@ code {
   gap: 12px;
   margin-bottom: 16px;
 }
-.lang-card__symbol-badge {
+.lang-card__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.lang-card__logo {
   position: relative;
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
+  width: 52px;
+  height: 52px;
+  flex: none;
+  border-radius: 14px;
   display: grid;
   place-items: center;
-  background: color-mix(in srgb, var(--lang-accent, var(--accent)) 12%, var(--surface));
-  border: 1px solid color-mix(in srgb, var(--lang-accent, var(--accent)) 30%, transparent);
-  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
+  background: color-mix(in srgb, var(--lang-accent, var(--accent)) 9%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--lang-accent, var(--accent)) 24%, transparent);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.35), 0 6px 16px -8px var(--lang-accent, var(--accent));
 }
-.lang-card__symbol {
-  font-family: var(--mono);
-  font-size: 15px;
-  font-weight: 750;
+.lang-card__logo img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.12));
+}
+.lang-card__name {
+  font-size: 19px;
+  font-weight: 700;
   letter-spacing: -0.02em;
-  color: var(--lang-accent, var(--accent));
+  color: var(--text);
 }
 .lang-card__info {
   position: relative;
