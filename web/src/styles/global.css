@@ -2577,6 +2577,37 @@ code {
 .curriculum__title {
   flex: 1;
 }
+.curriculum__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.curriculum__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: none;
+  padding: 6px 0;
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: left;
+  transition: color 0.2s var(--ease), transform 0.2s var(--ease);
+}
+.curriculum__toggle:hover {
+  color: var(--text);
+  transform: translateX(2px);
+}
+.curriculum__toggle svg {
+  color: var(--accent);
+  transition: transform 0.2s var(--ease);
+}
 .pager {
   display: grid;
   grid-template-columns: 1fr 1fr;

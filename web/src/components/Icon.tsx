@@ -106,6 +106,8 @@ const paths: Record<string, JSX.Element> = {
       <path d="M8.5 12h.01M12 12h.01M15.5 12h.01" />
     </>
   ),
+  chevronDown: <path d="m6 9 6 6 6-6" />,
+  chevronUp: <path d="m18 15-6-6-6 6" />,
 };
 
 export type IconName = keyof typeof paths;
