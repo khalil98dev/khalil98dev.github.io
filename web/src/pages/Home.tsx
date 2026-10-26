@@ -29,7 +29,7 @@ export default function Home() {
   const catLabel = (id: string) => formations?.categories.find((c) => c.id === id)?.label;
 
   if (!resume) return null;
-  const { profile, programmingLanguages = [], skills, experience, projects, education, languages, training, foundation } = resume;
+  const { profile, programmingLanguages = [], tools = [], skills, experience, projects, education, languages, training, foundation } = resume;
 
   return (
     <Page>
@@ -122,6 +122,44 @@ export default function Home() {
               </motion.div>
             ))}
           </motion.div>
+
+          {/* Tools strip */}
+          {tools.length > 0 && (
+            <div className="tools-section">
+              <div className="tools-section__head">
+                <div className="eyebrow">Databases, Runtimes &amp;amp; Tooling</div>
+              </div>
+              <motion.div
+                className="lang-strip lang-strip--tools"
+                variants={stagger}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, margin: '-60px' }}
+              >
+                {tools.map((t) => (
+                  <motion.div
+                    key={t.name}
+                    className="lang-tile lang-tile--tool"
+                    variants={item}
+                    style={{ ['--lang-accent' as string]: t.accent }}
+                  >
+                    <motion.img
+                      className="lang-tile__logo"
+                      src={t.icon}
+                      alt={`\${t.name} logo`}
+                      width={38}
+                      height={38}
+                      loading="lazy"
+                      whileHover={{ scale: 1.14, y: -3 }}
+                      transition={{ type: 'spring', stiffness: 320, damping: 18 }}
+                    />
+                    <span className="lang-tile__name">{t.name}</span>
+                    <span className="lang-tile__meta">{t.tag}</span>
+                  </motion.div>
+                ))}
+              </motion.div>
+            </div>
+          )}
 
           {/* Technical competencies bento grid */}
           <div className="mt-xl">

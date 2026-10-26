@@ -40,6 +40,13 @@ export interface ProgrammingLanguage {
   tag: string;
 }
 
+export interface Tool {
+  name: string;
+  icon: string;
+  accent: string;
+  tag: string;
+}
+
 export interface Experience {
   id: string;
   role: string;

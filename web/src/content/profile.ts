@@ -1,4 +1,4 @@
-import type { Education, Experience, Language, Profile, ProgrammingLanguage, Project, SkillGroup, Training } from '@/types';
+import type { Education, Experience, Language, Profile, ProgrammingLanguage, Tool, Project, SkillGroup, Training } from '@/types';
 
 /**
  * Resume content — sourced from Khalil_Bachir_Resume_Updated.md.
@@ -83,6 +83,21 @@ export const programmingLanguages: ProgrammingLanguage[] = [
     description:
       'Modern Flexbox, CSS Grid, custom properties, responsive breakpoints, fluid typography, glassmorphism, and smooth transitions.',
   },
+];
+
+export const tools: Tool[] = [
+  { name: 'SQL Server',      icon: '/content/langs/microsoftsqlserver.svg', accent: '#cc2927', tag: 'Database' },
+  { name: 'SQLite',          icon: '/content/langs/sqlite.svg',             accent: '#0f80cc', tag: 'Database' },
+  { name: 'ADO.NET',         icon: '/content/langs/adonet.svg',             accent: '#512BD4', tag: 'Data Access' },
+  { name: 'EF Core',         icon: '/content/langs/efcore.svg',             accent: '#5C2D91', tag: 'ORM' },
+  { name: 'Docker',          icon: '/content/langs/docker.svg',             accent: '#0db7ed', tag: 'DevOps' },
+  { name: 'Docker Compose',  icon: '/content/langs/dockercompose.svg',      accent: '#0db7ed', tag: 'DevOps' },
+  { name: 'WPF',             icon: '/content/langs/wpf.svg',                accent: '#0078d4', tag: 'Desktop' },
+  { name: 'WinForms',        icon: '/content/langs/winforms.svg',           accent: '#00adef', tag: 'Desktop' },
+  { name: 'IIS',             icon: '/content/langs/iis.svg',                accent: '#003865', tag: 'Web Server' },
+  { name: 'Git',             icon: '/content/langs/git.svg',                accent: '#f05032', tag: 'Version Control' },
+  { name: 'GitHub',          icon: '/content/langs/github.svg',             accent: '#333333', tag: 'Collaboration' },
+  { name: 'GitLab',          icon: '/content/langs/gitlab.svg',             accent: '#e2432a', tag: 'Collaboration' },
 ];
 
 export const profile: Profile = {
