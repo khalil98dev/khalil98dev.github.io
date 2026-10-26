@@ -28,7 +28,7 @@ export default function Home() {
   const catLabel = (id: string) => formations?.categories.find((c) => c.id === id)?.label;
 
   if (!resume) return null;
-  const { profile, skills, experience, projects, education, languages, training, foundation } = resume;
+  const { profile, programmingLanguages = [], skills, experience, projects, education, languages, training, foundation } = resume;
 
   return (
     <Page>
@@ -79,43 +79,93 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Skills */}
+      {/* Skills & Programming Languages */}
       <section className="section section--alt" id="skills">
         <div className="container">
-          <SectionHeader eyebrow="Toolkit" title="Technical skills" lead="From API design and security to databases, messaging and client apps." />
-          <motion.div className="bento" variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true, margin: '-60px' }}>
-            {skills.map((g, i) => (
+          <SectionHeader
+            eyebrow="Toolkit & Languages"
+            title={<>Languages I learned <br /><span className="text-gradient">&amp; used in production.</span></>}
+            lead="From foundational algorithmic problem-solving in C++ and enterprise backends in C# to mobile with Dart and modern type-safe web with TypeScript, JavaScript, HTML, and CSS."
+          />
+
+          {/* Languages Showcase Grid */}
+          <motion.div
+            className="lang-grid"
+            variants={stagger}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: '-60px' }}
+          >
+            {programmingLanguages.map((l) => (
               <TiltCard
-                key={g.id}
-                intensity={4}
-                className={`bento__card ${i === 0 ? 'bento__card--wide' : ''}`}
+                key={l.name}
+                intensity={5}
+                className="lang-card"
                 variants={item}
+                style={{ ['--lang-accent' as string]: l.accent }}
               >
-                <motion.div className="bento__icon" whileHover={{ scale: 1.12, rotate: -6 }} transition={{ type: 'spring', stiffness: 300 }}>
-                  <Icon name={g.icon} size={22} />
-                </motion.div>
-                <h3 className="h4">{g.title}</h3>
-                <motion.div
-                  className="chips"
-                  variants={{ hidden: {}, show: { transition: { staggerChildren: 0.03 } } }}
-                >
-                  {g.items.map((s) => (
-                    <motion.span
-                      key={s}
-                      className="chip"
-                      variants={{
-                        hidden: { opacity: 0, scale: 0.88, y: 8 },
-                        show: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.4, ease } },
-                      }}
-                      whileHover={{ y: -2, scale: 1.04 }}
-                    >
-                      {s}
-                    </motion.span>
-                  ))}
-                </motion.div>
+                <div className="lang-card__glow" />
+                <div className="lang-card__top">
+                  <div className="lang-card__symbol-badge">
+                    <span className="lang-card__symbol">{l.name}</span>
+                  </div>
+                  <span className="pill pill--soft">{l.tag}</span>
+                </div>
+                <div className="lang-card__info">
+                  <div className="lang-card__role">{l.role}</div>
+                  <p className="lang-card__desc">{l.description}</p>
+                </div>
+                <div className="lang-card__footer">
+                  <span className="lang-card__level">
+                    <span className="lang-card__dot" />
+                    {l.level}
+                  </span>
+                  <span className="lang-card__cat">{l.category}</span>
+                </div>
               </TiltCard>
             ))}
           </motion.div>
+
+          {/* Technical competencies bento grid */}
+          <div className="mt-2xl">
+            <div className="section-head section-head--compact">
+              <div className="eyebrow">Architecture &amp; Stacks</div>
+              <h3 className="h3">Technical Competencies</h3>
+            </div>
+            <motion.div className="bento" variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true, margin: '-60px' }}>
+              {skills.map((g, i) => (
+                <TiltCard
+                  key={g.id}
+                  intensity={4}
+                  className={`bento__card ${i === 0 ? 'bento__card--wide' : ''}`}
+                  variants={item}
+                >
+                  <motion.div className="bento__icon" whileHover={{ scale: 1.12, rotate: -6 }} transition={{ type: 'spring', stiffness: 300 }}>
+                    <Icon name={g.icon} size={22} />
+                  </motion.div>
+                  <h3 className="h4">{g.title}</h3>
+                  <motion.div
+                    className="chips"
+                    variants={{ hidden: {}, show: { transition: { staggerChildren: 0.03 } } }}
+                  >
+                    {g.items.map((s) => (
+                      <motion.span
+                        key={s}
+                        className="chip"
+                        variants={{
+                          hidden: { opacity: 0, scale: 0.88, y: 8 },
+                          show: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.4, ease } },
+                        }}
+                        whileHover={{ y: -2, scale: 1.04 }}
+                      >
+                        {s}
+                      </motion.span>
+                    ))}
+                  </motion.div>
+                </TiltCard>
+              ))}
+            </motion.div>
+          </div>
         </div>
       </section>
 
@@ -241,7 +291,7 @@ export default function Home() {
             ))}
           </div>
           <div>
-            <SectionHeader eyebrow="Languages" title="Communication" />
+            <SectionHeader eyebrow="Spoken Languages" title="Communication" />
             <div className="langs">
               {languages.map((l) => (
                 <Reveal key={l.name} className="lang">
@@ -475,7 +525,7 @@ function Hero({
               <Icon name="pin" size={16} /> {location}
             </span>
             <span>
-              <Icon name="server" size={16} /> .NET · ASP.NET Core · EF Core
+              <Icon name="code" size={16} /> C# · C++ · Dart · TypeScript · JS · HTML · CSS
             </span>
           </motion.div>
         </div>

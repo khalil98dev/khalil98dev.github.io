@@ -1,9 +1,82 @@
-import type { Education, Experience, Language, Profile, Project, SkillGroup, Training } from '@/types';
+import type { Education, Experience, Language, Profile, ProgrammingLanguage, Project, SkillGroup, Training } from '@/types';
 
 /**
  * Resume content — sourced from Khalil_Bachir_Resume_Updated.md.
  * Edit here (or later move behind the API in src/services/api.ts).
  */
+
+export const programmingLanguages: ProgrammingLanguage[] = [
+  {
+    name: 'C#',
+    category: 'Backend & Enterprise',
+    role: 'Primary Backend & Enterprise',
+    tag: 'Core Specialization',
+    level: '3+ Years Experience',
+    accent: '#7d4cdb',
+    description:
+      'Primary language for production backends, ASP.NET Core REST APIs, Clean Architecture, Entity Framework Core, and WPF desktop software.',
+  },
+  {
+    name: 'C++',
+    category: 'Core Computer Science',
+    role: 'Algorithms & Computing Foundations',
+    tag: '800+ Challenges',
+    level: 'Algorithmic Mastery',
+    accent: '#00599c',
+    description:
+      'Deep foundation with 800+ algorithmic challenges solved, memory management, pointers, and object-oriented architecture in ProgrammingAdvices.',
+  },
+  {
+    name: 'TypeScript',
+    category: 'Front-End & Full-Stack',
+    role: 'Type-Safe Web Applications',
+    tag: 'Modern Web',
+    level: 'Production-Ready',
+    accent: '#3178c6',
+    description:
+      'Strict type systems, modern React UI architectures, scalable interfaces, and robust client-side API integrations.',
+  },
+  {
+    name: 'Dart',
+    category: 'Mobile & Client',
+    role: 'Cross-Platform Mobile',
+    tag: 'Flutter Apps',
+    level: 'Mobile Integration',
+    accent: '#00b4ab',
+    description:
+      'Cross-platform mobile client development with Flutter, state management, and real-time backend synchronization for MedStore.',
+  },
+  {
+    name: 'JavaScript',
+    category: 'Web & Scripting',
+    role: 'Dynamic Client & Scripting',
+    tag: 'ES6+ & Async',
+    level: 'Interactive Web',
+    accent: '#d97706',
+    description:
+      'Modern asynchronous workflows, DOM events, client-side API consumption, and lightweight web utilities.',
+  },
+  {
+    name: 'HTML',
+    category: 'Web Standards',
+    role: 'Semantic Structure & Accessibility',
+    tag: 'HTML5 Standards',
+    level: 'Semantic Web',
+    accent: '#e34f26',
+    description:
+      'Modern semantic document architecture, web standards, accessibility (a11y), and SEO-optimized structures.',
+  },
+  {
+    name: 'CSS',
+    category: 'UI / UX Engineering',
+    role: 'Design Systems & Layouts',
+    tag: 'Apple Design & Motion',
+    level: 'Modern Layouts',
+    accent: '#1572b6',
+    description:
+      'Modern Flexbox, CSS Grid, custom properties, responsive breakpoints, fluid typography, glassmorphism, and smooth transitions.',
+  },
+];
 
 export const profile: Profile = {
   name: 'Khalil Bachir',

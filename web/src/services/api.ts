@@ -1,4 +1,4 @@
-import type { FormationsPayload, Profile, Project, SkillGroup, Experience, Education, Language, Training } from '@/types';
+import type { FormationsPayload, Profile, ProgrammingLanguage, Project, SkillGroup, Experience, Education, Language, Training } from '@/types';
 
 /**
  * Data access layer.
@@ -10,6 +10,7 @@ import type { FormationsPayload, Profile, Project, SkillGroup, Experience, Educa
 
 export interface ResumePayload {
   profile: Profile;
+  programmingLanguages: ProgrammingLanguage[];
   skills: SkillGroup[];
   experience: Experience[];
   projects: Project[];
@@ -45,6 +46,7 @@ const StaticSource: DataSource = {
         avatar: resolveAsset(p.avatar),
         avatarSm: resolveAsset(p.avatarSm),
       },
+      programmingLanguages: m.programmingLanguages,
       skills: m.skills,
       experience: m.experience,
       projects: m.projects,

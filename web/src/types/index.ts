@@ -29,6 +29,16 @@ export interface SkillGroup {
   items: string[];
 }
 
+export interface ProgrammingLanguage {
+  name: string;
+  category: string;
+  role: string;
+  description: string;
+  accent: string;
+  level: string;
+  tag: string;
+}
+
 export interface Experience {
   id: string;
   role: string;

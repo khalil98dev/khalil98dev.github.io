@@ -43,6 +43,12 @@ const paths: Record<string, JSX.Element> = {
     </>
   ),
   tools: <path d="M14.7 6.3a4 4 0 0 0 5 5L21 13l-8 8-3-3 8-8-1.3-1.3a4 4 0 0 0-5-5L14 5.7 14.7 6.3ZM3 21l6-6" />,
+  code: (
+    <>
+      <polyline points="16 18 22 12 16 6" />
+      <polyline points="8 6 2 12 8 18" />
+    </>
+  ),
   arrowRight: <path d="M5 12h14m-6-6 6 6-6 6" />,
   arrowLeft: <path d="M19 12H5m6-6-6 6 6 6" />,
   arrowUpRight: <path d="M7 17 17 7M8 7h9v9" />,
