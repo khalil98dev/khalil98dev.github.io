@@ -12,7 +12,8 @@ import { CertificateViewer } from '@/components/CertificateViewer';
 import { ContactSectionCard } from '@/components/ContactWidget';
 import { FloatingCodeStreams } from '@/components/FloatingCodeStreams';
 import { Magnetic, TiltCard } from '@/components/MotionPrimitives';
-import type { Experience, Formation } from '@/types';
+import { ExperienceTimeline } from '@/components/ExperienceTimeline';
+import type { Formation } from '@/types';
 
 export default function Home() {
   const { resume, formations } = useData();
@@ -345,54 +346,6 @@ export default function Home() {
 
       <CertificateViewer formation={preview} onClose={() => setPreview(null)} />
     </Page>
-  );
-}
-
-/* ---------- Scroll-driven Experience Timeline ---------- */
-
-function ExperienceTimeline({ items }: { items: Experience[] }) {
-  const ref = useRef<HTMLOListElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ['start 75%', 'end 65%'],
-  });
-  const scaleY = useSpring(scrollYProgress, { stiffness: 120, damping: 28, mass: 0.4 });
-
-  return (
-    <ol className="timeline" ref={ref}>
-      <motion.span className="timeline__progress" style={{ scaleY }} aria-hidden="true" />
-      {items.map((e, i) => (
-        <Reveal as="li" key={e.id} className="timeline__item" delay={i * 0.06}>
-          <div className="timeline__rail">
-            <span className={`timeline__dot ${e.current ? 'is-live' : ''}`} />
-          </div>
-          <div className="timeline__content">
-            <div className="timeline__head">
-              <div>
-                <h3 className="h3">{e.role}</h3>
-                <div className="timeline__company">{e.company}</div>
-              </div>
-              <span className={`pill ${e.current ? 'pill--live' : ''}`}>{e.period}</span>
-            </div>
-            {e.projects.map((p) => (
-              <motion.div
-                key={p.name}
-                className="timeline__project"
-                whileHover={{ y: -3, x: 2 }}
-                transition={{ duration: 0.3, ease }}
-              >
-                <div className="timeline__project-name">{p.name}</div>
-                <ul className="bullets">
-                  {p.points.map((pt) => (
-                    <li key={pt}>{pt}</li>
-                  ))}
-                </ul>
-              </motion.div>
-            ))}
-          </div>
-        </Reveal>
-      ))}
-    </ol>
   );
 }
 
