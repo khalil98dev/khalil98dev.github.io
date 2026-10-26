@@ -83,58 +83,47 @@ export default function Home() {
       <section className="section section--alt" id="skills">
         <div className="container">
           <SectionHeader
-            eyebrow="Toolkit & Languages"
-            title={<>Languages I learned <br /><span className="text-gradient">&amp; used in production.</span></>}
-            lead="From foundational algorithmic problem-solving in C++ and enterprise backends in C# to mobile with Dart and modern type-safe web with TypeScript, JavaScript, HTML, and CSS."
+            eyebrow="Toolkit"
+            title={<>Languages &amp; <span className="text-gradient">technical skills.</span></>}
+            lead="The languages I learned and use in production — from algorithms in C++ and enterprise backends in C#, to mobile with Dart and the modern web."
           />
 
-          {/* Languages Showcase Grid */}
+          {/* Integrated languages strip — one surface, hairline dividers */}
           <motion.div
-            className="lang-grid"
+            className="lang-strip"
             variants={stagger}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, margin: '-60px' }}
           >
-            {programmingLanguages.map((l) => (
-              <TiltCard
+            {programmingLanguages.map((l, i) => (
+              <motion.div
                 key={l.name}
-                intensity={5}
-                className="lang-card"
+                className="lang-tile"
                 variants={item}
+                title={l.description}
                 style={{ ['--lang-accent' as string]: l.accent }}
               >
-                <div className="lang-card__glow" />
-                <div className="lang-card__top">
-                  <div className="lang-card__brand">
-                    <motion.div
-                      className="lang-card__logo"
-                      whileHover={{ scale: 1.1, rotate: -4 }}
-                      transition={{ type: 'spring', stiffness: 320, damping: 18 }}
-                    >
-                      <img src={l.icon} alt={`${l.name} logo`} width={34} height={34} loading="lazy" />
-                    </motion.div>
-                    <span className="lang-card__name">{l.name}</span>
-                  </div>
-                  <span className="pill pill--soft">{l.tag}</span>
-                </div>
-                <div className="lang-card__info">
-                  <div className="lang-card__role">{l.role}</div>
-                  <p className="lang-card__desc">{l.description}</p>
-                </div>
-                <div className="lang-card__footer">
-                  <span className="lang-card__level">
-                    <span className="lang-card__dot" />
-                    {l.level}
-                  </span>
-                  <span className="lang-card__cat">{l.category}</span>
-                </div>
-              </TiltCard>
+                {i === 0 && <span className="lang-tile__badge">Primary</span>}
+                <motion.img
+                  className="lang-tile__logo"
+                  src={l.icon}
+                  alt={`${l.name} logo`}
+                  width={40}
+                  height={40}
+                  loading="lazy"
+                  whileHover={{ scale: 1.12, y: -2 }}
+                  transition={{ type: 'spring', stiffness: 320, damping: 18 }}
+                />
+                <span className="lang-tile__name">{l.name}</span>
+                <span className="lang-tile__role">{l.category}</span>
+                <span className="lang-tile__meta">{l.tag}</span>
+              </motion.div>
             ))}
           </motion.div>
 
           {/* Technical competencies bento grid */}
-          <div className="mt-2xl">
+          <div className="mt-xl">
             <div className="section-head section-head--compact">
               <div className="eyebrow">Architecture &amp; Stacks</div>
               <h3 className="h3">Technical Competencies</h3>
