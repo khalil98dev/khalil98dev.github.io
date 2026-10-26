@@ -4240,6 +4240,192 @@
       "cover": "/content/courses/typescript-fundamentals-from-javascript-to-professional-type-safe-development.jpg",
       "courseUrl": "https://programmingadvices.com/p/typescript-fundamentals",
       "certificate": null
+    },
+    {
+      "id": "2821026",
+      "slug": "mastering-asp-net-core-concepts-to-production-ready-apis",
+      "number": null,
+      "title": "Mastering ASP.NET Core: Concepts to Production-Ready APIs",
+      "fullTitle": "Mastering ASP.NET Core: Concepts to Production-Ready APIs",
+      "tagline": "Master ASP.NET Core through a structured, hands-on journey focused on real-world application. You will build production-ready APIs with secure authentication, versioning, caching, error handling, performance tuning, and Clean Architecture.",
+      "shortDescription": "Master ASP.NET Core from architectural foundations to enterprise production APIs. Covers middleware, dependency injection, routing, versioning, security, Clean Architecture, Docker Compose, and end-to-end testing.",
+      "about": "Comprehensive 38-hour deep dive into modern enterprise backend engineering with ASP.NET Core. From HTTP protocols, Kestrel server, and middleware pipelines to Minimal APIs, CQRS, Docker Compose orchestration, and automated testing.",
+      "skills": [
+        "Master ASP.NET Core architectural foundations, middleware pipelines, and dependency injection lifetimes",
+        "Build Controller-based and Minimal APIs with routing, versioning, and OpenAPI documentation",
+        "Implement data persistence, caching (In-Memory & Redis), and database optimization",
+        "Secure APIs using JWT bearer tokens, refresh tokens, role-based, and policy-based authorization",
+        "Implement RFC 7807 global error handling and FluentValidation",
+        "Architect scalable backends using Clean Architecture, Domain-Driven Design principles, and CQRS",
+        "Containerize multi-service applications using Docker and Docker Compose",
+        "Write automated unit tests and integration tests with WebApplicationFactory",
+        "Build and deploy the MechanicShop full-stack enterprise workshop management system"
+      ],
+      "verified": [
+        "Proven expertise in building enterprise-grade, production-ready ASP.NET Core APIs",
+        "Mastery of middleware pipelines, DI containers, and application configuration",
+        "Advanced API security including JWT authentication, refresh tokens, and fine-grained authorization",
+        "Clean Architecture implementation with CQRS, domain events, and separation of concerns",
+        "End-to-end containerization and automated testing for modern production deployments"
+      ],
+      "category": "backend",
+      "provider": "Metigator",
+      "instructor": "Issam Abdelnabi",
+      "progress": 100,
+      "sections": 35,
+      "lectures": 316,
+      "curriculum": [
+        {
+          "title": "Module #01 | Course Introduction",
+          "lectures": 8
+        },
+        {
+          "title": "Module #02 | Web History",
+          "lectures": 2
+        },
+        {
+          "title": "Module #03 | Network & HTTP Basics",
+          "lectures": 7
+        },
+        {
+          "title": "Module#04 | ASP.NET Core Structure and Templates",
+          "lectures": 5
+        },
+        {
+          "title": "Module#05 | Configurations",
+          "lectures": 14
+        },
+        {
+          "title": "Module#06 | Dependency Injection (DI, IOC)",
+          "lectures": 14
+        },
+        {
+          "title": "Module#07 | Middlewares",
+          "lectures": 9
+        },
+        {
+          "title": "Module#08 | CRUD Across Templates",
+          "lectures": 6
+        },
+        {
+          "title": "Module#09 | Routing",
+          "lectures": 9
+        },
+        {
+          "title": "Module#10 | Model Binding in APIs",
+          "lectures": 8
+        },
+        {
+          "title": "Module#11 | REST API",
+          "lectures": 4
+        },
+        {
+          "title": "Module#12 | Controller-Based  APIs",
+          "lectures": 23
+        },
+        {
+          "title": "Module#13 | Minimal Based APIs",
+          "lectures": 8
+        },
+        {
+          "title": "Module#14 | API Versioning",
+          "lectures": 14
+        },
+        {
+          "title": "Module#15 | Data Persistence",
+          "lectures": 11
+        },
+        {
+          "title": "Module#16 | Filters, Metadata, and API Conventions",
+          "lectures": 11
+        },
+        {
+          "title": "Module#17 | Error Handling in ASP.NET Core APIs",
+          "lectures": 9
+        },
+        {
+          "title": "Module#18 - Model Validation in ASP.NET Core",
+          "lectures": 9
+        },
+        {
+          "title": "Module#19 | Security In ASPNET Core",
+          "lectures": 21
+        },
+        {
+          "title": "Module#20 | OpenAPI",
+          "lectures": 8
+        },
+        {
+          "title": "Module#21 | Performance in ASPNET Core",
+          "lectures": 12
+        },
+        {
+          "title": "Module#22 | Dockerizing Multiple ASP.NET APIs with Docker Compose",
+          "lectures": 7
+        },
+        {
+          "title": "Module#23 | Observability",
+          "lectures": 14
+        },
+        {
+          "title": "Module#24 | Background services and Hosted Tasks",
+          "lectures": 5
+        },
+        {
+          "title": "Module#25 | Business Analysis & Domain Modeling",
+          "lectures": 5
+        },
+        {
+          "title": "Module#26 | MechanicShop Full-Stack Workshop Management System",
+          "lectures": 7
+        },
+        {
+          "title": "Module#27 | Clean Architecture",
+          "lectures": 6
+        },
+        {
+          "title": "Module#28 | Domain Layer",
+          "lectures": 6
+        },
+        {
+          "title": "Module#29 | Application Layer",
+          "lectures": 9
+        },
+        {
+          "title": "Module#30 | Infrastructure Layer",
+          "lectures": 8
+        },
+        {
+          "title": "Module#31 - API Layer",
+          "lectures": 6
+        },
+        {
+          "title": "Module#32 - Testing (Unit & Integration)",
+          "lectures": 9
+        },
+        {
+          "title": "Module#33 | Blazor WASM (UI)",
+          "lectures": 12
+        },
+        {
+          "title": "Module#34 | Project Packaging & CI Integration",
+          "lectures": 6
+        },
+        {
+          "title": "Module#35 | MechanicShop Final Project",
+          "lectures": 4
+        }
+      ],
+      "cover": "/content/courses/mastering-asp-net-core-concepts-to-production-ready-apis.png",
+      "courseUrl": "https://www.metigator.com/courses/2821026",
+      "certificate": {
+        "serialNumber": "cert_b4yz1j7f",
+        "issuedDate": "2026-10-04",
+        "image": "/content/certificates/mastering-asp-net-core-concepts-to-production-ready-apis.png",
+        "thumb": "/content/certificates/thumbs/mastering-asp-net-core-concepts-to-production-ready-apis.webp",
+        "pdf": "/content/certificates/mastering-asp-net-core-concepts-to-production-ready-apis.pdf",
+        "verifyUrl": "https://www.metigator.com/p/mastering-asp-net-core-concepts-to-production-ready-apis-certificate-f4eda849-9374-404e-a2a7-c6facb3a352a"
+      }
     }
   ]
 }

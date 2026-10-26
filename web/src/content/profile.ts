@@ -123,7 +123,7 @@ export const profile: Profile = {
   ],
   stats: [
     { value: '3+', label: 'Years building backends' },
-    { value: '29', label: 'Verified certificates' },
+    { value: '30', label: 'Verified certificates' },
     { value: '800+', label: 'Algorithmic challenges solved' },
     { value: '4', label: 'Shipped business systems' },
   ],

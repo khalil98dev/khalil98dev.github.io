@@ -8712,5 +8712,539 @@
         }
       ]
     }
+  },
+  {
+    "order": 34,
+    "id": "2821026",
+    "slug": "mastering-asp-net-core-concepts-to-production-ready-apis",
+    "courseNumber": null,
+    "title": "Mastering ASP.NET Core: Concepts to Production-Ready APIs",
+    "cleanTitle": "Mastering ASP.NET Core: Concepts to Production-Ready APIs",
+    "provider": "Metigator",
+    "instructor": "Issam Abdelnabi",
+    "shortDescription": "Master ASP.NET Core from architectural foundations to enterprise production APIs. Covers middleware, dependency injection, routing, versioning, security, Clean Architecture, Docker Compose, and end-to-end testing.",
+    "salesPageUrl": "https://www.metigator.com/courses/2821026",
+    "courseUrl": "https://www.metigator.com/courses/enrolled/2821026",
+    "coverImageUrl": "https://uploads.teachablecdn.com/attachments/a62ffffd747249c8b7a3c067166bb0d5.png",
+    "localCoverImagePath": "courses/images/mastering-asp-net-core-concepts-to-production-ready-apis.png",
+    "isEnrolled": true,
+    "progressPercent": 100,
+    "hasCertificate": true,
+    "certificate": {
+      "serialNumber": "cert_b4yz1j7f",
+      "issuedDate": "2026-10-04",
+      "recipientName": "Khalil bachir",
+      "issuer": "Metigator (Issam Abdelnabi)",
+      "certificateUrl": "https://www.metigator.com/p/mastering-asp-net-core-concepts-to-production-ready-apis-certificate-f4eda849-9374-404e-a2a7-c6facb3a352a",
+      "pdfDownloadUrl": "https://www.metigator.com/courses/2821026/certificate?pdf=true",
+      "localPdfPath": "certificates/pdf/mastering-asp-net-core-concepts-to-production-ready-apis.pdf",
+      "localImagePath": "certificates/images/mastering-asp-net-core-concepts-to-production-ready-apis.png"
+    },
+    "summary": {
+      "sections": {
+        "intro": "Master ASP.NET Core through a structured, hands-on journey focused on real-world application. You will build production-ready APIs with secure authentication, versioning, caching, error handling, performance tuning, and Clean Architecture.",
+        "about": "Comprehensive 38-hour deep dive into modern enterprise backend engineering with ASP.NET Core. From HTTP protocols, Kestrel server, and middleware pipelines to Minimal APIs, CQRS, Docker Compose orchestration, and automated testing.",
+        "whatYouWillLearn": "🔹 Master ASP.NET Core architectural foundations, middleware pipelines, and dependency injection lifetimes\n🔹 Build Controller-based and Minimal APIs with routing, versioning, and OpenAPI documentation\n🔹 Implement data persistence, caching (In-Memory & Redis), and database optimization\n🔹 Secure APIs using JWT bearer tokens, refresh tokens, role-based, and policy-based authorization\n🔹 Implement RFC 7807 global error handling and FluentValidation\n🔹 Architect scalable backends using Clean Architecture, Domain-Driven Design principles, and CQRS\n🔹 Containerize multi-service applications using Docker and Docker Compose\n🔹 Write automated unit tests and integration tests with WebApplicationFactory\n🔹 Build and deploy the MechanicShop full-stack enterprise workshop management system",
+        "certificationOutcomes": "🔹 Proven expertise in building enterprise-grade, production-ready ASP.NET Core APIs\n🔹 Mastery of middleware pipelines, DI containers, and application configuration\n🔹 Advanced API security including JWT authentication, refresh tokens, and fine-grained authorization\n🔹 Clean Architecture implementation with CQRS, domain events, and separation of concerns\n🔹 End-to-end containerization and automated testing for modern production deployments",
+        "coreTopics": "ASP.NET Core Architecture, Dependency Injection, Middleware, Controller & Minimal APIs, API Versioning, Entity Framework Core, JWT Authentication & Authorization, OpenAPI / Swagger, Performance & Caching, Docker Compose, Observability & Logging, Clean Architecture, CQRS, Unit & Integration Testing, Blazor WASM"
+      }
+    },
+    "curriculum": {
+      "totalSections": 35,
+      "totalLectures": 316,
+      "sections": [
+        {
+          "title": "Module #01 | Course Introduction",
+          "lectures": [
+            "01 Introduction",
+            "02 Prerequisites",
+            "03 Tooling",
+            "04 What And Why ASP.NET Core",
+            "05 What You'll Learn",
+            "06 .NET Framework (Setup Walkthrough)",
+            "07 Setup Visual Studio (Setup Walkthrough)",
+            "08 Setup VSCode With Extensions And .NET (Setup Walkthrough)"
+          ]
+        },
+        {
+          "title": "Module #02 | Web History",
+          "lectures": [
+            "02 Web Iterations",
+            "01 Web Development History"
+          ]
+        },
+        {
+          "title": "Module #03 | Network & HTTP Basics",
+          "lectures": [
+            "01 Introduction",
+            "02 HowInternetWorks",
+            "03 OSI Model TCP-IP",
+            "04 Web API Overview",
+            "05 Data Serialization Formats",
+            "06 HTTP Deep Dive",
+            "07 URLs, URIs & URNs"
+          ]
+        },
+        {
+          "title": "Module#04 | ASP.NET Core Structure and Templates",
+          "lectures": [
+            "01 First ASP.NET Core Project",
+            "02 Files & Folders Overview",
+            "03 App Entry Point (Program.cs)",
+            "04 Hosting Models",
+            "05 HttpContext"
+          ]
+        },
+        {
+          "title": "Module#05 | Configurations",
+          "lectures": [
+            "01 Configuration Overview",
+            "02 Host vs Application Configuration",
+            "03 Configuration Providers",
+            "04 System Environment Variables",
+            "05 Project-specific Environment Variables",
+            "06 Command-line Providers",
+            "07 User Secrets",
+            "08 File-based Providers",
+            "09 In-Memory Configuration",
+            "10 Order & Override Rules",
+            "11 Accessing Configuration",
+            "12 Options Pattern",
+            "13 Configuration Comparison",
+            "SourceCode"
+          ]
+        },
+        {
+          "title": "Module#06 | Dependency Injection (DI, IOC)",
+          "lectures": [
+            "01 DI Overview",
+            "02 Tight Coupling",
+            "03 Dependency Inversion Principle (DIP)",
+            "04 IoC Containers",
+            "05 Constructor Injection by Default",
+            "06 Built-in ASP.NET Core Services",
+            "07 Grouping Services",
+            "08 Registration Extensions vs Descriptors",
+            "09 Multiple Registrations",
+            "10 Keyed Services",
+            "11 Factory Instantiation",
+            "12 Resolving at Startup",
+            "13 Service Lifetimes",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#07 | Middlewares",
+          "lectures": [
+            "01 Middleware Overview.mp4",
+            "02 Pipeline & Middleware",
+            "03 Writing Middleware with Use",
+            "04 Writing Middleware with Run",
+            "05 Never Call next() After Response",
+            "06 Before & After Middleware",
+            "07 Middleware Ordering",
+            "08 Middleware Branching",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#08 | CRUD Across Templates",
+          "lectures": [
+            "01 CRUD Overview",
+            "02 In-Memory Models & Repos",
+            "03 MVC CRUD",
+            "04 Razor Pages CRUD",
+            "05 Blazor Server CRUD",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#09 | Routing",
+          "lectures": [
+            "01 Routing Overview",
+            "02 What Is Routing",
+            "03 Request Matching & Execution",
+            "04 UseRouting Order Matters",
+            "05 Route Templates",
+            "06 Route Constraints",
+            "07 Link Generators",
+            "08 Parameter Transformers",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#10 | Model Binding in APIs",
+          "lectures": [
+            "01 Binding Overview",
+            "02 Route Parameters",
+            "03 Query Strings",
+            "04 Headers",
+            "05 Forms",
+            "06 Body Binding",
+            "07 Cookies",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#11 | REST API",
+          "lectures": [
+            "01 REST Overview",
+            "02 REST Constraints",
+            "03 RESTful URIs",
+            "04 HTTP Methods in REST"
+          ]
+        },
+        {
+          "title": "Module#12 | Controller-Based  APIs",
+          "lectures": [
+            "01 Controllers Overview",
+            "02 Controller Architecture",
+            "03 Action Results",
+            "04 Initial Controller Setup",
+            "05 Defining Routes & Parameters",
+            "06 Designing Response",
+            "07 Designing Request",
+            "08 OPTIONS Endpoint",
+            "09 HEAD Endpoint",
+            "10 GET by Id Endpoint",
+            "11 GET All Items Endpoint",
+            "12 POST (Create) Endpoint",
+            "13 PUT (Replace) Endpoint",
+            "14 PATCH (Partial Update) Endpoint",
+            "15 DELETE Endpoint",
+            "16 Returning 202 Accepted",
+            "17 In-Memory FileResult",
+            "18 PhysicalFileResult (Disk File)",
+            "19 RedirectResult (Temporary)",
+            "20 Permanent Redirect Result",
+            "21 Content Negotiation",
+            "22 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#13 | Minimal Based APIs",
+          "lectures": [
+            "01 Minimal API Overview",
+            "02 HTTP Verb Support",
+            "13_03 Endpoint Anatomy",
+            "04 Response Generation",
+            "05 Grouped Endpoints",
+            "06 Building a Minimal REST API",
+            "07 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#14 | API Versioning",
+          "lectures": [
+            "01 Versioning Overview",
+            "02 Why Versioning Matters",
+            "03 Versioning Strategies",
+            "04 Breaking Changes Use Case",
+            "05 Controller URL Versioning",
+            "06 Controller Query-String Versioning",
+            "07 Controller Header Versioning",
+            "08 Controller Media-Type Versioning",
+            "09 Minimal API URL Versioning",
+            "10 Minimal API Query-String Versioning",
+            "11 Minimal API Header Versioning",
+            "12 Minimal API Media-Type Versioning",
+            "13 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#15 | Data Persistence",
+          "lectures": [
+            "01 Introduction to Data Persistence",
+            "02 Database Providers",
+            "03 EF Core Basics",
+            "04 Dapper Micro-Optimizations",
+            "05 Benefits of Async",
+            "06 Repository Pattern",
+            "07 Using Cancellation Tokens",
+            "08 Implementing Unit of Work",
+            "09 Performance Considerations",
+            "10 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#16 | Filters, Metadata, and API Conventions",
+          "lectures": [
+            "01 Introduction To Filters",
+            "02 Filter Types in ASP.NET Core",
+            "03 Filter Execution Pipeline",
+            "04 Implementing Action Filters",
+            "05 Implementing Resource Filters",
+            "06 Implementing Result Filters",
+            "07 Implementing Exception Filters",
+            "08 Implementing Filters in Minimal APIs",
+            "09 Filter Best Practices",
+            "10 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#17 | Error Handling in ASP.NET Core APIs",
+          "lectures": [
+            "17_01 Overview",
+            "17_02 Default Behaviour",
+            "17_03 Developer Exception Page",
+            "17_04 RFC 9457",
+            "17_05 Controller RFC 9457",
+            "17_06 Minimal RFC 9457",
+            "17_07 GlobalErrorHandling",
+            "17_08 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#18 - Model Validation in ASP.NET Core",
+          "lectures": [
+            "01 Overview",
+            "02 Demo Project Setup",
+            "03 Data Annotation Validation Using Controller",
+            "04 Data Annotation Validation Using Minimal API",
+            "05 FluentValidatins Using Controller",
+            "06 FluentValidatins Using Minimal API",
+            "07 Where to Put Validation",
+            "08 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#19 | Security In ASPNET Core",
+          "lectures": [
+            "01 Overview",
+            "02 Authentication Introduction",
+            "03 Authentication Strategies",
+            "04 ASPNET Core Authentication Schemes",
+            "05 HttpContext and User",
+            "06 The Bare Minimum Authentication Setup",
+            "07 Authorization Access Control",
+            "08 The Bare Minimum Authorization Setup",
+            "09 JWT Authentication",
+            "10 How JWT Works",
+            "11 Exploring the Project Before Adding JWT",
+            "12 JWT Authentication Configuration",
+            "13 Implement Token Generation Logic",
+            "14 Create Token Issuing Endpoint",
+            "15 Configure Permission Policies",
+            "16 Apply Authorization Rules to Protected Endpoints",
+            "17 Refresh JWT Token",
+            "18 Enforce Https",
+            "19 Enable Cross-Origin Requests (CORS)",
+            "20 Data Protection",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#20 | OpenAPI",
+          "lectures": [
+            "01 Overview",
+            "02 OpenAPI What, Why And How",
+            "03 Exploring the Baseline Project",
+            "04 Enrich Api Metadata",
+            "05 Configure OpenAPI Support",
+            "06 Add SwaggerUI and Scaler",
+            "07 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#21 | Performance in ASPNET Core",
+          "lectures": [
+            "01 Overview",
+            "02 Caching Foundation",
+            "03 In-Memory Cache",
+            "04 Distributed Cache",
+            "05 Hybrid Cache",
+            "06 Caching Best Pactices",
+            "07 Output Caching",
+            "08 Response Caching",
+            "09 Rate Limiting Middleware",
+            "10 Response compression in ASP.NET Core",
+            "11 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#22 | Dockerizing Multiple ASP.NET APIs with Docker Compose",
+          "lectures": [
+            "01 Introduction",
+            "02 Project Setup",
+            "03 Dockerize each service",
+            "04 DockerCompose To Orchestrate Services",
+            "05 Dockerization And Orchestration in Visual Studio",
+            "06 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#23 | Observability",
+          "lectures": [
+            "01 Overview",
+            "02 Logging and Monitoring Essentials",
+            "03 ILogger And Log Category",
+            "04 Log Levels",
+            "05 Structured Logging",
+            "06 Built-in Providers",
+            "07 Logging Configuration",
+            "08 Hands-On with Built-in Logging",
+            "09 Serilog And Seq",
+            "10 Distrubuted Tracing With OpenTelemetry",
+            "11 Metrics & Monitoring",
+            "12 HealthChecks",
+            "13 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#24 | Background services and Hosted Tasks",
+          "lectures": [
+            "01 Overview",
+            "02 Implementation Patterns",
+            "03 Best Practices",
+            "04 Recap",
+            "Sandbox"
+          ]
+        },
+        {
+          "title": "Module#25 | Business Analysis & Domain Modeling",
+          "lectures": [
+            "01 Business Problem",
+            "02 Vision",
+            "03 Requirments Gathering",
+            "04 PRD (Product Requirement Document",
+            "05 Core Business Domain"
+          ]
+        },
+        {
+          "title": "Module#26 | MechanicShop Full-Stack Workshop Management System",
+          "lectures": [
+            "01 Overview",
+            "02 System Users",
+            "03 Dashboard",
+            "04 Customers",
+            "05 Repair Tasks",
+            "06 Scheduling",
+            "07 Invoicing"
+          ]
+        },
+        {
+          "title": "Module#27 | Clean Architecture",
+          "lectures": [
+            "01 Overview",
+            "02 Architecure Pattern",
+            "03 The Limits of N-Tier Architecture",
+            "04 Clean Architecture Essentials",
+            "05 Create a Clean Architecture Template",
+            "06 Recap"
+          ]
+        },
+        {
+          "title": "Module#28 | Domain Layer",
+          "lectures": [
+            "01 Introduction",
+            "02 Abstractions",
+            "03 Domain Events",
+            "04 Result Pattern",
+            "05 Entities",
+            "06 Recap"
+          ]
+        },
+        {
+          "title": "Module#29 | Application Layer",
+          "lectures": [
+            "01 Introduction",
+            "02 Common",
+            "03 CQRS Concept",
+            "04 CQRS & Clean Architecture In Action",
+            "05 Commands",
+            "06 Pipeline Behaviours",
+            "07 Queries",
+            "08 Features",
+            "09 Recap"
+          ]
+        },
+        {
+          "title": "Module#30 | Infrastructure Layer",
+          "lectures": [
+            "01 Introduction",
+            "02 AppDbContext",
+            "03 BackgroundServices",
+            "04 Identity",
+            "05 Notify When WorkOrders Changed",
+            "06 Services",
+            "07 Nugets and DI",
+            "08 Recap"
+          ]
+        },
+        {
+          "title": "Module#31 - API Layer",
+          "lectures": [
+            "01 Introduction",
+            "02 Nuget And DI",
+            "03 Controllers And Minimal API",
+            "04 API Infrastructures",
+            "05 Test Requests",
+            "06 Recap"
+          ]
+        },
+        {
+          "title": "Module#32 - Testing (Unit & Integration)",
+          "lectures": [
+            "01 Introduction",
+            "02 Test Strategy in Clean Architecture",
+            "03 Setup Test Projects",
+            "04 Domain Unit Testing",
+            "05 Application Layer Unit Testing",
+            "06 Application Subcutaneous Tests",
+            "07 Integrations Testing",
+            "08 Run Tests",
+            "09 Recap"
+          ]
+        },
+        {
+          "title": "Module#33 | Blazor WASM (UI)",
+          "lectures": [
+            "01 Introduction",
+            "02 Create and Setup Hosted WASM",
+            "03 UI Setup and Bootstrap Integration",
+            "04 Setup HttpClient",
+            "05 Setup ServiceApi",
+            "06 Implementing Login and Logout Functionality",
+            "07 Customer And Repair Tasks Page",
+            "08 Dashboard Page",
+            "09 Schedule Page",
+            "10 WorkOrder Page",
+            "11 Invoicing Page",
+            "12 Recap"
+          ]
+        },
+        {
+          "title": "Module#34 | Project Packaging & CI Integration",
+          "lectures": [
+            "01 Setup Central Package Management",
+            "02 Enforcing Consistent Code Style",
+            "03 Dockerizing and Orchestrating",
+            "04 Initialize Git and Push to Github",
+            "05 Configure Github Actions CI",
+            "06 Recap"
+          ]
+        },
+        {
+          "title": "Module#35 | MechanicShop Final Project",
+          "lectures": [
+            "PRD - Project Requirement Document",
+            "MechanicShopWorkshop | .NET 9.0",
+            "MechanicShop (Visual Studio ) | .NET 10",
+            "MechanicShop (VS Code) | .NET 10"
+          ]
+        }
+      ]
+    }
   }
 ]

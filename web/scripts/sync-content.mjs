@@ -132,7 +132,7 @@ const formations = courses.map((c) => {
     skills: bullets(s.whatYouWillLearn || s.coreTopics).filter((b) => !ARABIC.test(b)).slice(0, 10),
     verified: bullets(s.certificationOutcomes || s.certificateDetails).filter((b) => !ARABIC.test(b)).slice(0, 6),
     category: categorize(c.title),
-    provider: 'ProgrammingAdvices',
+    provider: c.provider || 'ProgrammingAdvices',
     instructor: c.instructor,
     progress: c.progressPercent ?? 0,
     sections: c.curriculum?.totalSections ?? 0,
