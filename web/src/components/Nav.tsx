@@ -15,7 +15,7 @@ const links = [
 ];
 
 export function Nav() {
-  const { scrollY } = useScroll();
+  const { scrollY, scrollYProgress } = useScroll();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [hovered, setHovered] = useState<string | null>(null);
@@ -154,6 +154,7 @@ export function Nav() {
           </motion.nav>
         )}
       </AnimatePresence>
+      <motion.div className="nav__scroll-progress" style={{ scaleX: scrollYProgress }} aria-hidden="true" />
     </motion.header>
   );
 }

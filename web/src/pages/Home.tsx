@@ -1,4 +1,4 @@
-import { motion, useMotionValue, useScroll, useSpring, useTransform } from 'framer-motion';
+import { AnimatePresence, motion, useMotionValue, useScroll, useSpring, useTransform } from 'framer-motion';
 import { useMemo, useRef, useState, type MouseEvent } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '@/services/DataProvider';
@@ -28,8 +28,21 @@ export default function Home() {
   );
   const catLabel = (id: string) => formations?.categories.find((c) => c.id === id)?.label;
 
+  const [projectCategory, setProjectCategory] = useState<'all' | 'backend' | 'desktop'>('all');
+
   if (!resume) return null;
-  const { profile, programmingLanguages = [], tools = [], skills, experience, projects, education, languages, training, foundation } = resume;
+  const { profile, programmingLanguages = [], tools = [], skills, experience, projects = [], education, languages, training, foundation } = resume;
+
+  const filteredProjects = projects.filter((p) => {
+    if (projectCategory === 'all') return true;
+    if (projectCategory === 'backend') {
+      return p.stack.some((s) => /asp\.net|postgres|clean architecture|signalr|cloud/i.test(s));
+    }
+    if (projectCategory === 'desktop') {
+      return p.stack.some((s) => /wpf|desktop|sql server/i.test(s));
+    }
+    return true;
+  });
 
   return (
     <Page>
@@ -216,43 +229,88 @@ export default function Home() {
       <section className="section section--alt" id="projects">
         <div className="container">
           <SectionHeader eyebrow="Selected work" title="Projects & products" lead="Business systems delivered for clients — products are on the way." />
-          <motion.div className="projects" variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true, margin: '-60px' }}>
-            {projects.map((p) => (
-              <TiltCard
-                key={p.id}
-                intensity={4}
-                className="project"
-                variants={item}
-                style={{ ['--accent' as string]: p.accent }}
-              >
-                <div className="project__glow" />
-                <div className="project__top">
-                  <span className="pill pill--soft">{p.kind}</span>
-                  {p.url && (
-                    <Magnetic strength={0.35}>
-                      <a href={p.url} target="_blank" rel="noreferrer" className="icon-btn icon-btn--sm" aria-label={`Open ${p.name}`}>
-                        <Icon name="arrowUpRight" size={16} />
-                      </a>
-                    </Magnetic>
+
+          {/* Project category filter tabs */}
+          <div className="project-tabs" role="tablist" aria-label="Project filter">
+            {[
+              { id: 'all', label: 'All Projects', count: projects.length },
+              { id: 'backend', label: 'ASP.NET Core & Cloud', count: projects.filter((p) => p.stack.some((s) => /asp\.net|postgres|clean architecture|signalr|cloud/i.test(s))).length },
+              { id: 'desktop', label: 'Desktop & WPF', count: projects.filter((p) => p.stack.some((s) => /wpf|desktop|sql server/i.test(s))).length },
+            ].map((cat) => {
+              const active = projectCategory === cat.id;
+              return (
+                <button
+                  key={cat.id}
+                  type="button"
+                  role="tab"
+                  aria-selected={active}
+                  className={`project-tab ${active ? 'is-active' : ''}`}
+                  onClick={() => setProjectCategory(cat.id as any)}
+                >
+                  {active && (
+                    <motion.span
+                      layoutId="project-tab-pill"
+                      className="project-tab__pill"
+                      transition={{ type: 'spring', stiffness: 380, damping: 30 }}
+                    />
                   )}
-                </div>
-                <h3 className="project__name">{p.name}</h3>
-                <p className="project__sub">{p.subtitle}</p>
-                <ul className="bullets bullets--sm">
-                  {p.points.map((pt) => (
-                    <li key={pt}>{pt}</li>
-                  ))}
-                </ul>
-                <div className="chips chips--sm">
-                  {p.stack.map((s) => (
-                    <motion.span key={s} className="chip" whileHover={{ y: -2, scale: 1.04 }}>
-                      {s}
-                    </motion.span>
-                  ))}
-                </div>
-              </TiltCard>
-            ))}
-            <motion.article className="project project--soon" variants={item} whileHover={{ scale: 1.01 }}>
+                  <span className="project-tab__label">{cat.label}</span>
+                  <span className="project-tab__count">{cat.count}</span>
+                </button>
+              );
+            })}
+          </div>
+
+          <motion.div className="projects" layout variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true, margin: '-60px' }}>
+            <AnimatePresence mode="popLayout">
+              {filteredProjects.map((p) => (
+                <TiltCard
+                  key={p.id}
+                  intensity={4}
+                  className="project"
+                  variants={item}
+                  layout
+                  initial={{ opacity: 0, scale: 0.94 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.94 }}
+                  transition={{ duration: 0.35, ease }}
+                  style={{ ['--accent' as string]: p.accent }}
+                >
+                  <div className="project__glow" />
+                  <div className="project__top">
+                    {p.url ? (
+                      <span className="pill pill--live">
+                        <span className="live-dot" /> Live Production
+                      </span>
+                    ) : (
+                      <span className="pill pill--soft">{p.kind}</span>
+                    )}
+                    {p.url && (
+                      <Magnetic strength={0.35}>
+                        <a href={p.url} target="_blank" rel="noreferrer" className="icon-btn icon-btn--sm" aria-label={`Open ${p.name}`}>
+                          <Icon name="arrowUpRight" size={16} />
+                        </a>
+                      </Magnetic>
+                    )}
+                  </div>
+                  <h3 className="project__name">{p.name}</h3>
+                  <p className="project__sub">{p.subtitle}</p>
+                  <ul className="bullets bullets--sm">
+                    {p.points.map((pt) => (
+                      <li key={pt}>{pt}</li>
+                    ))}
+                  </ul>
+                  <div className="chips chips--sm">
+                    {p.stack.map((s) => (
+                      <motion.span key={s} className="chip" whileHover={{ y: -2, scale: 1.04 }}>
+                        {s}
+                      </motion.span>
+                    ))}
+                  </div>
+                </TiltCard>
+              ))}
+            </AnimatePresence>
+            <motion.article className="project project--soon" layout variants={item} whileHover={{ scale: 1.01 }}>
               <motion.span
                 animate={{ rotate: [0, 12, -12, 0], scale: [1, 1.08, 1] }}
                 transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
@@ -423,6 +481,23 @@ function Hero({
   const chipBX = useTransform(smx, [-0.5, 0.5], [16, -16]);
   const chipBY = useTransform(smy, [-0.5, 0.5], [12, -12]);
 
+  const [copiedEmail, setCopiedEmail] = useState(false);
+  function handleCopyEmail() {
+    navigator.clipboard?.writeText('khalilbachir98@outlook.com');
+    setCopiedEmail(true);
+    setTimeout(() => setCopiedEmail(false), 2200);
+  }
+
+  const badge1X = useTransform(smx, [-0.5, 0.5], [-22, 22]);
+  const badge1Y = useTransform(smy, [-0.5, 0.5], [-16, 16]);
+  const badge2X = useTransform(smx, [-0.5, 0.5], [24, -24]);
+  const badge2Y = useTransform(smy, [-0.5, 0.5], [-14, 14]);
+  const badge3X = useTransform(smx, [-0.5, 0.5], [16, -16]);
+  const badge3Y = useTransform(smy, [-0.5, 0.5], [18, -18]);
+
+  const rotX = useTransform(smy, [-0.5, 0.5], [5, -5]);
+  const rotY = useTransform(smx, [-0.5, 0.5], [-7, 7]);
+
   function onMove(e: MouseEvent<HTMLElement>) {
     const rect = e.currentTarget.getBoundingClientRect();
     mx.set((e.clientX - rect.left) / rect.width - 0.5);
@@ -442,14 +517,29 @@ function Hero({
       <FloatingCodeStreams />
       <motion.div className="container hero__split" style={{ y, opacity, scale }}>
         <div className="hero__copy">
-          <motion.div
-            className="pill pill--live hero__pill"
-            initial={{ opacity: 0, y: 12, scale: 0.92 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 0.65, ease, delay: 0.08 }}
-          >
-            <span className="live-dot" /> {availability}
-          </motion.div>
+          <div className="hero__top-row">
+            <motion.div
+              className="pill pill--live hero__pill"
+              initial={{ opacity: 0, y: 12, scale: 0.92 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ duration: 0.65, ease, delay: 0.08 }}
+            >
+              <span className="live-dot" /> {availability}
+            </motion.div>
+
+            <motion.div
+              className="hero__arabic-kicker"
+              initial={{ opacity: 0, y: 12, scale: 0.92 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ duration: 0.65, ease, delay: 0.14 }}
+              dir="rtl"
+            >
+              <span className="hero__arabic-sparkle">✦</span>
+              <span className="hero__arabic-quote">خلّ إبداعك يتكلّم</span>
+              <span className="hero__arabic-bar">/</span>
+              <span className="hero__arabic-sub">هندسة برمجية متقنة</span>
+            </motion.div>
+          </div>
 
           <h1 className="hero__title">
             <span className="hero__name-line">
@@ -496,6 +586,17 @@ function Hero({
               </a>
             </Magnetic>
             <Magnetic>
+              <button
+                type="button"
+                className={`btn btn--lg hero__copy-btn ${copiedEmail ? 'btn--copied' : 'btn--ghost'}`}
+                onClick={handleCopyEmail}
+                aria-label="Copy email address"
+              >
+                <Icon name={copiedEmail ? 'check' : 'copy'} size={18} />
+                <span>{copiedEmail ? 'Email Copied!' : 'Copy Email'}</span>
+              </button>
+            </Magnetic>
+            <Magnetic>
               <Link to="/certifications" className="btn btn--ghost btn--lg">
                 <Icon name="award" size={18} /> Certifications
               </Link>
@@ -523,10 +624,66 @@ function Hero({
           animate={{ opacity: 1, scale: 1, y: 0, filter: 'blur(0px)' }}
           transition={{ duration: 1.1, ease, delay: 0.22 }}
         >
+          {/* Cosmic purple ambient rim glow matching 3D avatar */}
           <motion.div className="hero__portrait-aura" style={{ x: chipBX, y: chipBY }} aria-hidden="true" />
-          <motion.figure className="hero__figure" style={{ x: chipAX, y: chipAY }}>
+          <div className="hero__portrait-glow-purple" aria-hidden="true" />
+
+          {/* Concentric ambient ripple rings (echoing the reference screenshot) */}
+          <div className="hero__portrait-rings" aria-hidden="true">
+            <span className="hero__ring hero__ring--1" />
+            <span className="hero__ring hero__ring--2" />
+            <span className="hero__ring hero__ring--3" />
+          </div>
+
+          {/* Floating 3D Avatar Figure with interactive tilt & gentle float */}
+          <motion.figure
+            className="hero__figure"
+            style={{ x: chipAX, y: chipAY, rotateX: rotX, rotateY: rotY, transformPerspective: 900 }}
+            animate={{ y: [0, -8, 0] }}
+            transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
+          >
             <img src={avatar} alt={name} className="hero__figure-img" fetchPriority="high" />
           </motion.figure>
+
+          {/* Floating Interactive Tech Badges */}
+          <motion.div
+            className="hero__float-badge hero__float-badge--tl"
+            style={{ x: badge1X, y: badge1Y }}
+            animate={{ y: [0, -6, 0] }}
+            transition={{ duration: 4.2, repeat: Infinity, ease: 'easeInOut', delay: 0.2 }}
+          >
+            <div className="hero__badge-head">
+              <span className="hero__badge-dot hero__badge-dot--purple" />
+              <span className="hero__badge-title">.NET 9 &amp; C#</span>
+            </div>
+            <span className="hero__badge-sub">Enterprise Backend</span>
+          </motion.div>
+
+          <motion.div
+            className="hero__float-badge hero__float-badge--tr"
+            style={{ x: badge2X, y: badge2Y }}
+            animate={{ y: [0, 7, 0] }}
+            transition={{ duration: 4.8, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
+          >
+            <div className="hero__badge-head">
+              <span className="hero__badge-dot hero__badge-dot--blue" />
+              <span className="hero__badge-title">Clean Architecture</span>
+            </div>
+            <span className="hero__badge-sub">DDD &amp; CQRS</span>
+          </motion.div>
+
+          <motion.div
+            className="hero__float-badge hero__float-badge--br"
+            style={{ x: badge3X, y: badge3Y }}
+            animate={{ y: [0, -7, 0] }}
+            transition={{ duration: 4.5, repeat: Infinity, ease: 'easeInOut', delay: 0.8 }}
+          >
+            <div className="hero__badge-head">
+              <span className="hero__badge-dot hero__badge-dot--green" />
+              <span className="hero__badge-title">PostgreSQL &amp; EF Core</span>
+            </div>
+            <span className="hero__badge-sub">High-Throughput</span>
+          </motion.div>
         </motion.div>
       </motion.div>
 

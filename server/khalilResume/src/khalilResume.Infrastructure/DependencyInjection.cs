@@ -19,8 +19,7 @@ public static class DependencyInjection
     {
         services.AddSingleton(TimeProvider.System);
 
-        var connectionString = configuration.GetConnectionString("DefaultConnection") 
-            ?? "Data Source=app.db";
+        var connectionString = configuration.GetConnectionString("DefaultConnection") ?? "Data Source=app.db";
 
         services.AddScoped<ISaveChangesInterceptor, AuditableEntityInterceptor>();
 
